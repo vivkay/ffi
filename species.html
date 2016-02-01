@@ -4,11 +4,15 @@ layout: default
 
 <p>SPECIES PAGE</p>
 
+{% for species in site.data.species %}
+
 <div class="grid">
   <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4 until-xl-1-4">
-      <img src="http://placehold.it/150x150">
-    <h4>{{species.name}}</h4>
+      <img src="{{species.icon}}" alt="{{species.icon-alt}}">
+    <h4>{{site.species.name}}</h4>
     <h5>{{species.sub-name}}</h5>
-    <p>{{species.details}}</p>
+    <p>{{species.description}}</p>
   </div>
 </div>
+
+{% endfor %}
