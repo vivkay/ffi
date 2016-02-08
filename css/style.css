@@ -1347,4 +1347,13 @@ html {
 .primary {
   color: #BCC83E; }
 
+i {
+  color: black;
+  font-size: 1em;
+  display: block; }
+
+.i-fir {
+  color: red;
+  background-color: yellow;
+  font-size: 1em; }
 /*# sourceMappingURL=style.css.map */
