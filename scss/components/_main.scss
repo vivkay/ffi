@@ -36,6 +36,10 @@ body{
   perspective: 1px;
 }
 
+main {
+  margin: 0 2em;
+}
+
 .parallax-group {
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
