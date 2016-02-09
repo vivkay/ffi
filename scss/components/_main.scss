@@ -245,10 +245,16 @@ footer {
 i a {
   color: white;
   text-decoration: none;
+  font-size: 2em;
 }
 
 i a:hover {
   color: $light-coral;
+}
+
+.social {
+  display: block;
+  margin: 1em 0;
 }
 
 //tablet

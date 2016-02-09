@@ -1120,6 +1120,10 @@ td, th, fieldset {
     font-size: 0.7901rem;
     line-height: 1.5000rem; }
 
+  .copyright {
+    font-size: 0.25rem;
+    line-height: 1rem; }
+
   ul, ol {
     padding-left: 0; }
 
@@ -1559,10 +1563,15 @@ footer {
 
 i a {
   color: white;
-  text-decoration: none; }
+  text-decoration: none;
+  font-size: 2em; }
 
 i a:hover {
   color: #F9B8A4; }
+
+.social {
+  display: block;
+  margin: 1em 0; }
 
 @media only screen and (min-width: 38em) {
   .color-shift {
