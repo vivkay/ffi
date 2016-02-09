@@ -1542,7 +1542,7 @@ footer {
   color: white;
   width: 100%; }
 
-.btn-cta {
+.btn-coral {
   margin: 0;
   border: 0;
   font-size: .75rem;
@@ -1554,8 +1554,15 @@ footer {
   background-color: #F05546;
   letter-spacing: 1.5px; }
 
-.btn-cta:hover {
+.btn-coral:hover {
   background-color: #D94841; }
+
+i a {
+  color: white;
+  text-decoration: none; }
+
+i a:hover {
+  color: #F9B8A4; }
 
 @media only screen and (min-width: 38em) {
   .color-shift {

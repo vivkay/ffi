@@ -225,7 +225,7 @@ footer {
     width: 100%;
 }
 
-.btn-cta {
+.btn-coral {
     margin: 0 ;
     border: 0;
     font-size: .75rem;
@@ -238,8 +238,17 @@ footer {
     letter-spacing: 1.5px;
 }
 
-.btn-cta:hover {
+.btn-coral:hover {
     background-color: $dark-coral;
+}
+
+i a {
+  color: white;
+  text-decoration: none;
+}
+
+i a:hover {
+  color: $light-coral;
 }
 
 //tablet
