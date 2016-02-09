@@ -1524,6 +1524,16 @@ footer {
   color: white;
   padding: 4em 2em; }
 
+.hero {
+  text-align: center;
+  max-height: 75vh;
+  position: relative;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), no-repeat center bottom/100% 80%, url("../img/home-banner.jpg") no-repeat center top;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), no-repeat center bottom/100% 80%, url("../img/home-banner.jpg") no-repeat center top;
+  background-color: grey;
+  background-size: cover;
+  padding-top: 56.25%; }
+
 @media only screen and (min-width: 38em) {
   .color-shift {
     color: green; } }
