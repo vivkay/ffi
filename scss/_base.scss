@@ -1,12 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:400,500);
 $work-sans: 'Work Sans', Arial, sans-serif;
 
-$coral: #F05546;
-$green: #BCC83E;
-$charcoal: #272729;
-$light-grey: #ECEDE2;
+$light-grey: #8F8A8B;
+$medium-grey: #545152;
+$medium-dark-grey: #272729;
+$dark-grey: #0D0C0D;
 
-$primary: $green;
-$secondary: $charcoal;
-$accent: $coral;
-$background: $light-grey;
+$light-coral: #F9B8A4;
+$medium-coral: #F37962;
+$dark-coral: #D94841;
+$extra-dark-coral: #bf2d26;
+
+//Core Colors
+$grey: #19181A;
+$coral: #F05546;
+$background: #ECEDE2;
+
+$primary: $coral;
+$text-color: $grey;
