@@ -1516,6 +1516,11 @@ header {
 .color-shift {
   color: blue; }
 
+footer {
+  background-color: #19181A;
+  color: white;
+  padding: 4em 2em; }
+
 @media only screen and (min-width: 38em) {
   .color-shift {
     color: green; } }
