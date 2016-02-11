@@ -1,0 +1,4 @@
+markdown: redcarpet
+baseurl: /ffi
+exclude: ['README.md']
+exclude: [scss]
