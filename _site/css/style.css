@@ -1388,15 +1388,6 @@ body {
 main {
   margin: 0 2em; }
 
-.parallax-group {
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d; }
-
-.parallax-back {
-  width: 100%;
-  -webkit-transform: translateZ(-1px);
-          transform: translateZ(-1px); }
-
 header {
   padding: 0;
   position: relative;
