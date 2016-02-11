@@ -12,6 +12,9 @@ html {
   text-size-adjust: 100%;
   overflow: hidden;
   font-family: $work-sans;
+  overflow-x: auto;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 *, *:before, *:after {
@@ -26,14 +29,6 @@ body{
   &.noscript .toggle-btn{
       display: none;
   }
-  height: 100vh;
-  margin: 0;
-  overflow-y: auto;
-  overflow-x: hidden;
-  -webkit-overflow-scrolling: touch;
-
-  -webkit-perspective: 1px;
-  perspective: 1px;
 }
 
 main {
