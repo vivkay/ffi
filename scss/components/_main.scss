@@ -116,6 +116,10 @@ footer {
 //desktop
 @media only screen and (min-width: 60em){
 
+.logo {
+  display: initial;
+}
+
 .ffi-logo {
   height: 40px;
   margin-top: 1em;
@@ -128,6 +132,7 @@ footer {
 
 .top-nav ul {
   text-align: right;
+  margin-bottom: 0;
 }
 
 .top-nav a {
@@ -142,12 +147,12 @@ footer {
   font-size: .75rem;
   line-height: 1rem;
   padding: 0;
+  margin-bottom: 0;
 }
 
 .donate {
   background-color: $coral;
   display: inline-block;
-  margin: 0;
 }
 
 .donate a {

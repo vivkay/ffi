@@ -1446,6 +1446,9 @@ footer {
   margin: 1em 0; }
 
 @media only screen and (min-width: 60em) {
+  .logo {
+    display: initial; }
+
   .ffi-logo {
     height: 40px;
     margin-top: 1em;
@@ -1455,7 +1458,8 @@ footer {
     background-color: #19181A; }
 
   .top-nav ul {
-    text-align: right; }
+    text-align: right;
+    margin-bottom: 0; }
 
   .top-nav a {
     text-decoration: none;
@@ -1467,12 +1471,12 @@ footer {
     display: inline-block;
     font-size: .75rem;
     line-height: 1rem;
-    padding: 0; }
+    padding: 0;
+    margin-bottom: 0; }
 
   .donate {
     background-color: #F05546;
-    display: inline-block;
-    margin: 0; }
+    display: inline-block; }
 
   .donate a {
     text-decoration: none;
