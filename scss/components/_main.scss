@@ -31,12 +31,18 @@ body{
   margin-top: 1em;
 }
 
+.logo {
+  float: left;
+}
+
 .top-nav {
   background-color: $grey;
+  overflow: hidden;
 }
 
 .top-nav ul {
   text-align: center;
+  float: right;
 }
 
 .top-nav a {

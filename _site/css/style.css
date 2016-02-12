@@ -1382,11 +1382,16 @@ body {
   height: 40px;
   margin-top: 1em; }
 
+.logo {
+  float: left; }
+
 .top-nav {
-  background-color: #19181A; }
+  background-color: #19181A;
+  overflow: hidden; }
 
 .top-nav ul {
-  text-align: center; }
+  text-align: center;
+  float: right; }
 
 .top-nav a {
   text-decoration: none;
