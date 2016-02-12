@@ -23,12 +23,40 @@ html {
 
 body{
   font-family: sans-serif;
-  @include zero;
-  // Hides close button if there is no js
-  &.noscript .close-btn,
-  &.noscript .toggle-btn{
-      display: none;
-  }
+  margin: 0;
+}
+
+.ffi-logo {
+  height: 40px;
+  margin-top: 1em;
+}
+
+.top-nav {
+  background-color: $grey;
+}
+
+.top-nav ul {
+  text-align: center;
+}
+
+.top-nav a {
+  text-decoration: none;
+  padding: 1em 1.5em;
+  color: white;
+}
+
+.top-nav li {
+  list-style-type: none;
+  display: block;
+  padding: .75em;
+  font-size: .75rem;
+  line-height: 1rem;
+}
+
+.donate {
+  background-color: $coral;
+  display: block;
+  margin: 0 25% .75em 25%;
 }
 
 header {
@@ -81,6 +109,42 @@ footer {
 
 //desktop
 @media only screen and (min-width: 60em){
+
+.ffi-logo {
+  height: 40px;
+  margin-top: 1em;
+}
+
+.top-nav {
+  background-color: $grey;
+}
+
+.top-nav ul {
+}
+
+.top-nav a {
+  text-decoration: none;
+  padding: 1em 1.5em;
+  color: white;
+}
+
+.top-nav li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: .75rem;
+  line-height: 1rem;
+}
+
+.donate {
+  background-color: $coral;
+  display: inline-block;
+}
+
+.donate a {
+  text-decoration: none;
+  color: white;
+}
+
 
 } // @media query desktop
 
