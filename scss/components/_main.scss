@@ -88,6 +88,18 @@ footer {
     letter-spacing: 1.5px;
 }
 
+.btn {
+  display: inline-block;
+}
+
+.menu {
+  display: none;
+}
+
+.js-menu-open {
+  display: block;
+}
+
 .btn-coral:hover {
     background-color: $dark-coral;
 }
@@ -110,6 +122,13 @@ footer {
 //tablet
 @media only screen and (min-width: 38em){
 
+.btn {
+  display: none;
+}
+
+#nav-icon3 {
+  display: none;
+}
 
 } // @media query tablet
 

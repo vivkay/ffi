@@ -1430,6 +1430,15 @@ footer {
   background-color: #F05546;
   letter-spacing: 1.5px; }
 
+.btn {
+  display: inline-block; }
+
+.menu {
+  display: none; }
+
+.js-menu-open {
+  display: block; }
+
 .btn-coral:hover {
   background-color: #D94841; }
 
@@ -1445,6 +1454,12 @@ footer {
   display: block;
   margin: 1em 0; }
 
+@media only screen and (min-width: 38em) {
+  .btn {
+    display: none; }
+
+  #nav-icon3 {
+    display: none; } }
 @media only screen and (min-width: 60em) {
   .logo {
     display: initial; }
