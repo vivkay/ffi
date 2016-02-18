@@ -1380,7 +1380,7 @@ body {
 
 .logo {
   text-align: center;
-  display: block; }
+  display: inline-block; }
 
 .ffi-logo {
   height: 30px;
@@ -1395,7 +1395,6 @@ body {
 
 .top-nav a {
   text-decoration: none;
-  padding: 1em 1.5em;
   color: white; }
 
 .top-nav li {
@@ -1431,9 +1430,11 @@ footer {
   letter-spacing: 1.5px; }
 
 .btn {
-  display: block;
+  display: inline-block;
   width: 50px;
-  height: 50px; }
+  height: 50px;
+  background: none;
+  border: none; }
 
 .btn-img {
   width: 100%; }
@@ -1459,22 +1460,18 @@ footer {
   display: block;
   margin: 1em 0; }
 
-@media only screen and (min-width: 38em) {
-  .btn {
-    display: none; }
-
-  .menu {
-    display: block; }
-
-  #nav-icon3 {
-    display: none; } }
 @media only screen and (min-width: 60em) {
   .logo {
     display: initial; }
 
+  .menu {
+    display: inline-block; }
+
+  .btn {
+    display: none; }
+
   .ffi-logo {
     height: 40px;
-    margin-top: 1em;
     text-align: left; }
 
   .top-nav {

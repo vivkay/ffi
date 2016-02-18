@@ -28,7 +28,7 @@ body{
 
 .logo {
   text-align: center;
-  display: block;
+  display: inline-block;
 }
 
 .ffi-logo {
@@ -47,7 +47,6 @@ body{
 
 .top-nav a {
   text-decoration: none;
-  padding: 1em 1.5em;
   color: white;
 }
 
@@ -89,9 +88,11 @@ footer {
 }
 
 .btn {
-  display: block;
+  display: inline-block;
   width: 50px;
   height: 50px;
+  background: none;
+  border: none;
 }
 
 .btn-img {
@@ -128,17 +129,6 @@ footer {
 //tablet
 @media only screen and (min-width: 38em){
 
-.btn {
-  display: none;
-}
-
-.menu {
-  display: block;
-}
-
-#nav-icon3 {
-  display: none;
-}
 
 } // @media query tablet
 
@@ -149,9 +139,16 @@ footer {
   display: initial;
 }
 
+.menu {
+  display: inline-block;
+}
+
+.btn {
+  display: none;
+}
+
 .ffi-logo {
   height: 40px;
-  margin-top: 1em;
   text-align: left;
 }
 
