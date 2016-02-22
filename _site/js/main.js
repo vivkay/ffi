@@ -1,7 +1,23 @@
-var $btn = $('.btn');
-var $menu = $('.menu');
-var name = 'hello';
+$(document).ready(function () {
 
-$btn.on('click', function () {
-  $menu.toggleClass('js-menu-open');
+    $(".menu-btn a").click(function () {
+        $(".overlay").fadeToggle(200);
+        $(this).toggleClass('btn-open').toggleClass('btn-close');
+    });
+
+    $('.overlay').on('click', function () {
+        $(".overlay").fadeToggle(200);
+        $(".menu-btn a").toggleClass('btn-open').toggleClass('btn-close');
+    });
+
+    $('.menu a').on('click', function () {
+        $(".overlay").fadeToggle(200);
+        $(".menu-btn a").toggleClass('btn-open').toggleClass('btn-close');
+    });
+
 });
+
+document.querySelector( "#nav-toggle" )
+  .addEventListener( "click", function() {
+    this.classList.toggle( "active" );
+  });
