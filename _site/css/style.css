@@ -1790,7 +1790,8 @@ footer {
     background: none;
   }
   .menu-desk {
-    display: initial;
+    display: inline-block;
+    float: right;
   }
   .menu-btn {
     display: none;

@@ -294,7 +294,6 @@ footer {
 	padding-top: 1em;
 }
 
-
 .all-links{
   position:absolute;
   bottom:0;
@@ -341,7 +340,8 @@ footer {
 	 }
 	
 	.menu-desk { 
-		display: initial;
+		display: inline-block;
+		float: right;
 	}
 	
 	.menu-btn { 
