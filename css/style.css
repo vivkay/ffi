@@ -1619,31 +1619,49 @@ footer {
 
 .specie-desc {
   font-size: 12px;
+  width: 230px;
+  margin: 0 auto;
   text-align: center;
-  margin: 0;
 }
 
 .specie-name {
   font-size: 16px;
-  text-align: center;
   margin: 0;
 }
 
 .specie-subname {
   font-size: 12px;
-  text-align: center;
-  margin: 0;
-}
-
-.specie-icon {
-  font-size: 80px;
-  text-align: center;
   margin: 0;
 }
 
 .specie-about {
-  width: 13em;
-  display: inline-block;
+  text-align: center;
+  display: inline;
+}
+
+.specie {
+  margin-bottom: 3em;
+}
+
+.specie-icon {
+  font-size: 80px;
+  margin: 0;
+  text-align: center;
+  display: block;
+}
+
+.specie-icon:hover, .specie-icon:active {
+  animation: wiggle .1s infinite alternate;
+  transform-origin: center 60%;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(2deg);
+  }
 }
 
 @media only screen and (min-width: 60em) {
