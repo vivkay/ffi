@@ -9,11 +9,13 @@ hero-h2: We focus on species that are on the brink of extinction
 
 <div class="grid">
   {% for species in site.data.species %}
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4 unit-xl-1-4">
-        <i class="{{species.icon}}" alt="{{species.icon-alt}}"></i>
-      <h4>{{species.name}}</h4>
-      <h5>{{species.sub-name}}</h5>
-      <p>{{species.description}}</p>
+    <div class=" specie unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4 unit-xl-1-4">
+        <i class="specie-icon {{species.icon}}" alt="{{species.icon-alt}}"></i>
+		<div class="specie-about ">
+		  <h4 class="specie-name">{{species.name}}</h4>
+		  <h5 class="specie-subname">{{species.sub-name}}</h5>
+		  <p class="specie-desc">{{species.description}}</p>
+		</div>	
     </div>
   {% endfor %}
 </div>
