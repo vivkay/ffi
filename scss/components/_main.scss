@@ -282,7 +282,7 @@ footer {
 
 
 .overlay {
-    position: fixed;
+    position: absolute;
     top: 0;
     z-index: 99;
     display: none;
@@ -290,8 +290,9 @@ footer {
     width: 100%;
     opacity: .97;
     height: 50%;
-    background: #333;
+    background: $dark-grey;
 	padding-top: 1em;
+	margin-left: -1em;
 }
 
 .all-links{
@@ -301,7 +302,7 @@ footer {
   font-weight:bold;
   width:100%;
   text-align:center;
-  background:#e9e9e9;
+  background: $white;
   padding:20px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -356,7 +357,9 @@ footer {
 	padding: 10px 35px 16px 0px; 
 }
 
-#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+#nav-toggle span, 
+#nav-toggle span:before, 
+#nav-toggle span:after {
   cursor: pointer;
   border-radius: 1px;
   height: 5px;
@@ -375,7 +378,9 @@ footer {
   bottom: -10px;
 }
 
-#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+#nav-toggle span, 
+#nav-toggle span:before, 
+#nav-toggle span:after {
   transition: all 500ms ease-in-out;
 }
 
@@ -383,7 +388,8 @@ footer {
   background-color: transparent;
 }
 
-#nav-toggle.active span:before, #nav-toggle.active span:after {
+#nav-toggle.active span:before, 
+#nav-toggle.active span:after {
   top: 0;
 }
 
