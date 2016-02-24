@@ -45,4 +45,52 @@
   description: 'Despite its name, the brown bear varies greatly in colour, ranging from very light brown through to black.. Unfortunately, this important area is under threat from development and intensive exploitation of natural resources.'
   icon: i-bear
   icon-alt:  Brown Bear
+  
+  - name-plant: Big Tree Rhododendron
+  sub-name-plant: China
+  description-plant: 'An adult tree can reach around one metre in diameter and up to 25 metres in height. Its size and beauty have contributed to its downfall and the number of trees left in the wild is unknown but could be anywhere from 100 to 1400.'
+  icon: i-rhododendron
+  icon-alt: Big tree rhododendron 
+  
+    - name-plant: Yuanbaoshan Fir
+  sub-name-plant: 
+  description-plant: 'The Yuanbaoshan fir is found only in the Yuanbao Mountains of north Guangxi, China. There are only thought to be around 700 of these trees left in the wild, and the population structure mainly comprises either old individuals or very young ones.'
+  icon-plant: 
+  icon-alt-plant: Yuanbaoshan Fir
+  
+    - name-plant: Mpingo Tree
+  sub-name-plant: 
+  description-plant: 'Its dense black wood, which gives the tree its other name, the African blackwood, is one of the most valuable timbers in the world. Illegal logging and over-harvesting have decimated mpingo tree populations.'
+  icon-plant: 
+  icon-alt-plant: Mpingo Tree 
+  
+    - name-plant: Magnolia Sinica
+  sub-name-plant: 
+  description-plant: 'Magnolia sinica can grow up to 40 metres tall and is easily recognisable in the forest thanks to its straight trunk and deep-green shiny leaves. The main threats to the species are seed collection, logging and habitat destruction for agriculture.'
+  icon-plant: 
+  icon-alt-plant: Magnolia Sinica  
+  
+    - name-plant: Niedzwetsky Apple
+  sub-name-plant: 
+  description-plant: 'The Niedzwetsky apple tree is a wild relative of the domesticated apples therefore is of global importance as an international genetic resource. The expansion of agriculture and development across its range has led to 90% of the species’ habitat being lost.'
+  icon-plant: 
+  icon-alt-plant: Niedzwetsky Apple
+  
+    - name-plant: Lansan Tree
+  sub-name-plant: 
+  description-plant: 'The Lansan Tree ‘s  fleshy fruits provide food for pigeons and other forest wildlife. Habitat loss and overexploitation of lansan for resin have decimated most of the island populations.'
+  icon-plant: 
+  icon-alt-plant: Lansan Tree
+  
+    - name-plant: Grandidiers Baobab
+  sub-name-plant: 
+  description-plant: 'This strange yet magnificent tree is only found on the island of Madagascar. Of the eight species of baobab, six can be found only in Madagascar.'
+  icon-plant: 
+  icon-alt-plant: Grandidiers Baobab 
+  
+    - name-plant: Magnolia Grandis
+  sub-name-plant: 
+  description-plant: 'The Magnolia Grandi is one of the most beautiful, boasting dark red fragrant flowers and long, leathery leaves. Magnolia grandis is one of the world’s most threatened trees with a global population of fewer than 50 individuals.'
+  icon-plant: 
+  icon-alt-plant: Magnolia Grandis
 
