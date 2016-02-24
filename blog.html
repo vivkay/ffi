@@ -2,3 +2,15 @@
 layout: default
 hero: blog-main-banner.jpg
 ---
+
+<div class="grid center">
+    {% for blog in site.data.blog %}
+    <div class=" specie unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4 unit-xl-1-4">
+        <img src="{{site.baseurl}}/img/{{blog-post}}" alt="">
+      <div>
+        <h4>{{blog.title}}</h4>
+        <h5>{{blog.author}}</h5>
+        <p>{{blog.excerpt}}</p>
+      </div>
+    </div>
+  {% endfor %}
