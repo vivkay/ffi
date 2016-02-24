@@ -1,23 +1,23 @@
 - name: Great Green Macaw
-  sub-name: Africa
+  sub-name: Central/South America
   description: 'The great green macaw is one of the larger and more colourful parrots in South and Central America’s forests. As little as 30% of its original range may remain.'
   icon: i-mcaw
   icon-alt: Great Green Macaw
 
 - name: Leather Back Turtle
-  sub-name: Africa
+  sub-name: Central America
   description: 'The leatherback turtle is the oldest and largest turtle living in our oceans and is an important part of our ecosystem.The trade of turtle eggs remains the most significant threat to marine turtles.'
   icon: i-turtle
   icon-alt: This is the alt tag
 
 - name: Saiga Antelope
-  sub-name: Africa
+  sub-name: Asia
   description: 'This unique looking antelope lives in large nomadic herds but unfortunately their numbers are dropping and they are now considered critically endangered.'
   icon: i-saiga-antelope
   icon-alt: Saiga Antelope
 
 - name: Francois Langur
-  sub-name: Africa
+  sub-name: Asia
   description: 'The Francois’ langur is a distinctive primate, with its punk-style tuft of black hair and white sideburns. The population has declined in recent decades due to illegal hunting and habitat fragmentation.'
   icon: i-francois-langur
   icon-alt:  Francois Langur
@@ -29,68 +29,68 @@
   icon-alt:  Mountain Gorilla
   
 - name: Sumatran Tiger
-  sub-name: Africa
+  sub-name: Asia
   description: 'Smallest of all the tigers, its stripes are narrower than in other tiger subspecies and it has a more bearded and maned appearance. There are around 500 Sumatran tigers existing in the wild.'
   icon: i-tiger
   icon-alt:  Sumatran Tiger
 
 - name: Red Panda
-  sub-name: Africa
+  sub-name: Asia
   description: 'The red panda is largely found in mountainous, temperate forest regions in Asia. Their habitat is being lost due to logging and other development, while areas are opening up to hunters and the wildlife trade.'
   icon: i-red-panda
   icon-alt:  Red Panda
    
 - name: Brown Bear
-  sub-name: Africa
-  description: 'Despite its name, the brown bear varies greatly in colour, ranging from very light brown through to black.. Unfortunately, this important area is under threat from development and intensive exploitation of natural resources.'
+  sub-name: Europe
+  description: 'Despite its name, the brown bear varies greatly in colour, ranging from very light brown through to black. Unfortunately, this important area is under threat from development and intensive exploitation of natural resources.'
   icon: i-bear
   icon-alt:  Brown Bear
   
   - name-plant: Big Tree Rhododendron
-  sub-name-plant: China
+  sub-name-plant: Asia
   description-plant: 'An adult tree can reach around one metre in diameter and up to 25 metres in height. Its size and beauty have contributed to its downfall and the number of trees left in the wild is unknown but could be anywhere from 100 to 1400.'
   icon: i-rhododendron
   icon-alt: Big tree rhododendron 
   
     - name-plant: Yuanbaoshan Fir
-  sub-name-plant: 
+  sub-name-plant: Asia
   description-plant: 'The Yuanbaoshan fir is found only in the Yuanbao Mountains of north Guangxi, China. There are only thought to be around 700 of these trees left in the wild, and the population structure mainly comprises either old individuals or very young ones.'
-  icon-plant: 
+  icon-plant: i-fir
   icon-alt-plant: Yuanbaoshan Fir
   
     - name-plant: Mpingo Tree
-  sub-name-plant: 
+  sub-name-plant: Africa
   description-plant: 'Its dense black wood, which gives the tree its other name, the African blackwood, is one of the most valuable timbers in the world. Illegal logging and over-harvesting have decimated mpingo tree populations.'
-  icon-plant: 
+  icon-plant: i-mpingo-tree
   icon-alt-plant: Mpingo Tree 
   
     - name-plant: Magnolia Sinica
-  sub-name-plant: 
+  sub-name-plant: Asia
   description-plant: 'Magnolia sinica can grow up to 40 metres tall and is easily recognisable in the forest thanks to its straight trunk and deep-green shiny leaves. The main threats to the species are seed collection, logging and habitat destruction for agriculture.'
-  icon-plant: 
+  icon-plant: i-magnolia-sinica
   icon-alt-plant: Magnolia Sinica  
   
     - name-plant: Niedzwetsky Apple
-  sub-name-plant: 
+  sub-name-plant: Asia
   description-plant: 'The Niedzwetsky apple tree is a wild relative of the domesticated apples therefore is of global importance as an international genetic resource. The expansion of agriculture and development across its range has led to 90% of the species’ habitat being lost.'
-  icon-plant: 
+  icon-plant: i-apple-tree
   icon-alt-plant: Niedzwetsky Apple
   
     - name-plant: Lansan Tree
-  sub-name-plant: 
+  sub-name-plant: North America
   description-plant: 'The Lansan Tree ‘s  fleshy fruits provide food for pigeons and other forest wildlife. Habitat loss and overexploitation of lansan for resin have decimated most of the island populations.'
-  icon-plant: 
+  icon-plant: i-lansan-tree
   icon-alt-plant: Lansan Tree
   
     - name-plant: Grandidiers Baobab
-  sub-name-plant: 
+  sub-name-plant: Africa
   description-plant: 'This strange yet magnificent tree is only found on the island of Madagascar. Of the eight species of baobab, six can be found only in Madagascar.'
-  icon-plant: 
+  icon-plant: i-baobab 
   icon-alt-plant: Grandidiers Baobab 
   
     - name-plant: Magnolia Grandis
-  sub-name-plant: 
+  sub-name-plant: Asia
   description-plant: 'The Magnolia Grandi is one of the most beautiful, boasting dark red fragrant flowers and long, leathery leaves. Magnolia grandis is one of the world’s most threatened trees with a global population of fewer than 50 individuals.'
-  icon-plant: 
+  icon-plant: i-magnolia
   icon-alt-plant: Magnolia Grandis
 
