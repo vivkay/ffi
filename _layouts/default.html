@@ -12,7 +12,7 @@
 </head>
 <body>
 <body>
-  <header>
+ 
 
 <div class="nav-desktop">	  
 	<div class="top-nav">	  
@@ -50,8 +50,10 @@
 			</div>
 		</div>
 	</div>	  
-
-  </header><!-- /header -->
+	
+	<header class="hero" role="banner" {% if page.hero %} style="background-image: url({{site.baseurl}}/img/{{page.hero}})" alt="" {% endif %}>
+		
+  	</header><!-- /header -->
 <main>
 
 {{content}}
