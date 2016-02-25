@@ -1855,7 +1855,7 @@ footer {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), no-repeat center bottom/100% 80%, no-repeat center top;
   background-color: grey;
   background-size: cover;
-  padding-top: 56.25%;
+  padding-top: 46%;
 }
 
 .hero-content {
@@ -1907,5 +1907,5 @@ footer {
 }
 
 .push-down {
-  margin-top: 30%;
+  margin-top: 28%;
 }
