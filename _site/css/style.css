@@ -1741,13 +1741,13 @@ footer {
   top: 0;
   z-index: 99;
   display: none;
-  overflow: auto;
   width: 100%;
   opacity: .97;
-  height: 50%;
+  height: 57%;
   background: #0D0C0D;
   padding-top: 1em;
   margin-left: -1em;
+  overflow: visible;
 }
 
 .all-links {
