@@ -1920,3 +1920,20 @@ footer {
   text-decoration: none;
   color: #19181A;
 }
+
+.author {
+  font-size: .75em;
+  color: #8F8A8B;
+  margin-bottom: .75em;
+}
+
+.blog-title {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #19181A;
+}
+
+.excerpt {
+  font-size: .9em;
+  color: #545152;
+}
