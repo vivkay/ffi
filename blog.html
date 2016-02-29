@@ -3,5 +3,11 @@ layout: default
 hero: blog-main-banner.jpg
 ---
 
-<p>This is the blog</p>
-
+<ul>
+  {% for post in site.posts %}
+  <li>
+    <a href="">{{blog.title}}</a>
+    <p></p>
+  </li>
+  {% endfor %}
+</ul>
