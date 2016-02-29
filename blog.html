@@ -3,12 +3,20 @@ layout: default
 hero: blog-main-banner.jpg
 ---
 
-<ul>
+<div class="grid">
   {% for post in site.posts %}
-  <li>
-    <a href="">{{post.title}}</a>
-    <p>{{post.author}}</p>
-    <p>{{post.meta}}</p>
-  </li>
+  <ul>
+    <li class="blog-li">
+      <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+        <img class="blog-thumb" src="{{base.url}}/img/{{post.image}}">
+      </div>
+      <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+        <a href="">{{post.title}}</a>
+        <p>{{post.author}}</p>
+        <p>{{post.meta}}</p>
+        <a class="btn-cta" href="#">Read More</a>
+      </div>
+    </li>
+  </ul>
   {% endfor %}
-</ul>
+</div>

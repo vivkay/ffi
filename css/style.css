@@ -1910,3 +1910,11 @@ footer {
 .push-down {
   margin-top: 28%;
 }
+
+.blog-thumb {
+  width: 100%;
+}
+
+.blog-li {
+  list-style-type: none;
+}
