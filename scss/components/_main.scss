@@ -289,7 +289,7 @@ footer {
     display: none;
     width: 100%;
     opacity: .97;
-    height: 57%;
+    height: 58%;
     background: $dark-grey;
 	padding-top: 1em;
 	margin-left: -1em;
@@ -363,7 +363,7 @@ footer {
 #nav-toggle span:after {
   cursor: pointer;
   border-radius: 1px;
-  height: 7px;
+  height: 5px;
   width: 35px;
   background: white;
   position: absolute;
@@ -460,10 +460,9 @@ footer {
     color: #FFFFFF;
     background-color: transparent; 
     letter-spacing: 1.5px;
-}
-
-.btn-cta:hover {
-    background-color: rgba(255,255,255,0.3); 
+	&:hover { 
+		 background-color: rgba(255,255,255,0.3); 
+	}
 }
 
 .push-down { 
