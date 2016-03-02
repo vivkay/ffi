@@ -51,8 +51,10 @@
 		</div>
 	</div>	  
 	
-	<header class="hero" role="banner" {% if page.hero %} style="background-image: url({{site.baseurl}}/img/{{page.hero}})" alt="" {% endif %}>
-	</header><!-- /header -->
+	<div class="banner-overlay">
+		<header class="hero" role="banner" {% if page.hero %} style="background-image: url({{site.baseurl}}/img/{{page.hero}})" alt="" {% endif %}>
+		</header><!-- /header -->
+	</div>	
 <main>
 
 {{content}}
