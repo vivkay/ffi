@@ -1912,3 +1912,28 @@ footer {
 .push-down {
   margin-top: 28%;
 }
+
+.contact-title {
+  font-size: 14px;
+  color: #F05546;
+}
+
+.contact-info {
+  font-size: 12px;
+  font-weight: 300;
+  color: #8F8A8B;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.contact-location {
+  font-size: 14px;
+  font-weight: 600;
+  color: #545152;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.contact-sec {
+  margin-left: 3em;
+}

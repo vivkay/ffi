@@ -208,7 +208,7 @@ footer {
   display: inline-block;
 }
 
-	.top-nav a {
+.top-nav a {
   text-decoration: none;
   padding: 1em 1.5em;
   color: white;
@@ -402,22 +402,6 @@ footer {
   transform: rotate(-45deg);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .hero {
     text-align: center;
     max-height: 75vh;
@@ -485,6 +469,30 @@ footer {
 
 .push-down { 
 	margin-top: 28%;
+}
 
+.contact-title { 
+	font-size: 14px;
+	color: $coral;
+}
+
+.contact-info { 
+	font-size: 12px;
+	font-weight: 300;
+	color: $light-grey; 
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.contact-location { 
+	font-size: 14px;
+	font-weight: 600;
+	color: $medium-grey;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.contact-sec { 
+	margin-left: 3em;
 }
 
