@@ -1937,3 +1937,7 @@ footer {
   font-size: .9em;
   color: #545152;
 }
+
+.blog-sidebar {
+  background-color: #cdcbcc;
+}
