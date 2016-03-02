@@ -1916,6 +1916,7 @@ footer {
 .contact-title {
   font-size: 14px;
   color: #F05546;
+  text-align: left;
 }
 
 .contact-info {
