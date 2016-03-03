@@ -81,16 +81,7 @@ footer {
 
 .btn-coral {
     margin: 0 ;
-    border: 0;
-    align-content: center;
-    font-size: .75rem;
-    padding: .75rem 1.5rem;
-    text-decoration: none;
-    display:inline-block;
-    font-weight: lighter;
-    color: white;
-    background-color: $coral;
-    letter-spacing: 1.5px;
+	@include donate-button;
 }
 
 .btn {
@@ -497,3 +488,40 @@ footer {
 	margin-left: 3em;
 }
 
+.sign-up { 
+	width: 100%;
+	text-align: center;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+label, input {
+    display: inline-block;
+}
+
+label {
+    width: 30%;
+    text-align: right;
+}
+
+label + input {
+    width: 30%;
+    margin: 0 30% 0 4%;
+}
+
+input + input {
+    float: right;
+}
+
+.donate-title { 
+	text-align: center;
+}
+
+.btn-coral-donate { 
+	margin-left: auto;
+	margin-right: 50%;
+	@include donate-button;
+}
