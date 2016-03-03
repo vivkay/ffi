@@ -396,6 +396,7 @@ footer {
 .hero {
     text-align: center;
     max-height: 75vh;
+	width: 100%;
     position: relative;
     background: 
             linear-gradient(
@@ -417,7 +418,9 @@ footer {
     color: white;
 	font-size: 1.5rem; 
 	font-weight: 400;
-    width: 100%;
+    width: 60%;
+	margin-left: 25%; 
+	margin-right: auto;
 }
 
 .logo-main {
