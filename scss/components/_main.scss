@@ -253,22 +253,9 @@ footer {
   transform: rotate(-45deg);
 }
 
-.hero-tagp { 
-	font-size: 29px; 
-	color: $black; 
-	font-weight: 700;
-	margin: 0;
-}
-
-.hero-paragraph { 
-	font-size: 17px; 
-	color: $black; 
-	font-weight: 500;
-}
-
 .hero-paragraph { 
 	font-size: 17px;
-	color: $black;
+	color: $white;
 }
 
 .hero {
@@ -278,6 +265,17 @@ footer {
     background-color: grey;
     background-size: cover;
     padding-top: 46%;
+}
+
+.banner-opacity:after {
+	content: "#";
+	opacity: .5;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: $black; 
 }
 
 .hero-inside {
@@ -343,7 +341,6 @@ footer {
 
 .push-down {
 	margin-top: 28%;
-
 }
 
 .contact-title { 
@@ -477,6 +474,7 @@ input + input {
 	color: $medium-dark-grey;
 	margin: 0;
 	padding-bottom: 1em;
+	
 }
 
 .coral-icon { 
@@ -523,14 +521,6 @@ input + input {
 	margin: 0;
 	margin-bottom: .5em;
  }
-
-.banner-overlay { 
-	top: 0;
-	left: 0;
-	background-color: $black;
-	z-index: 200;
-	opacity: .6;
-}
 
 .donate-info { 
 	font-size: 10pt;
@@ -652,6 +642,19 @@ input + input {
 	padding-top: 1em;
 	margin-left: -1em;
 	overflow: visible;
+}
+
+.hero-tagp { 
+	font-size: 29px; 
+	color: $white; 
+	font-weight: 700;
+	margin: 0;
+}
+
+.hero-paragraph { 
+	font-size: 17px; 
+	color: $white; 
+	font-weight: 500;
 }
 
 .all-links{

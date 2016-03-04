@@ -13,7 +13,6 @@
 <body>
 <body>
  
-
 <div class="nav-desktop">	  
 	<div class="top-nav">	  
 		 <div class="menu-btn">
@@ -52,15 +51,19 @@
 		</div>
 	</div>	  
 	
-	<div class="banner-overlay">
+	<div class="banner-opacity">
 		<header class="hero" role="banner" {% if page.hero %} style="background-image: url({{site.baseurl}}/img/{{page.hero}})" alt="" {% endif %}>
+			<div class="hero-content push-down">
+				<p class="hero-tagp ad-t-1-2">{{page.page-title}}</p>
+				<p class="hero-paragraph">{{page.page-subtitle}}</p>
+			</div>
 		</header><!-- /header -->
 	</div>	
 <main>
 
 {{content}}
 
-      </main><!-- /main -->
+</main><!-- /main -->
 
     </div> <!--/.sliding-canvas-->
   </div> <!-- /.site-wrapper -->
