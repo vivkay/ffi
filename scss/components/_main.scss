@@ -255,6 +255,7 @@ footer {
 
 .hero-paragraph { 
 	font-size: 17px;
+	color: $black;
 }
 
 .hero {
@@ -294,7 +295,7 @@ footer {
     margin-top: 5%;
     position: absolute;
     text-align: center;
-    color: white;
+    color: $black;
 	font-size: 1.5rem; 
 	font-weight: 400;
     width: 50%;
@@ -530,7 +531,7 @@ input + input {
 	left: 0;
 	background-color: black;
 	z-index: 200;
-	opacity: .4;
+	opacity: .6;
 }
 
 .donate-info { 
@@ -657,15 +658,15 @@ input + input {
 
 .hero-tagp { 
 	font-size: 29px; 
-	color: $white; 
+	color: $black; 
 	font-weight: 700;
 	margin: 0;
 }
 
 .hero-paragraph { 
 	font-size: 17px; 
-	color: $white; 
-	font-weight: 200;
+	color: $black; 
+	font-weight: 500;
 }
 
 .all-links{
