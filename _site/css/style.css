@@ -1711,7 +1711,7 @@ footer {
 
 .menu-btn {
   position: absolute;
-  top: 16px;
+  top: 17.5px;
   left: 20px;
   z-index: 999;
   display: inline;
@@ -1784,7 +1784,7 @@ footer {
     text-align: left;
     margin-left: 0;
     margin-right: 0;
-    margin-top: 1.25em;
+    margin-top: 1.5em;
   }
   .top-nav {
     background-color: #19181A;
