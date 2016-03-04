@@ -4,9 +4,6 @@ hero: blog-main-banner.jpg
 ---
 
 <div class="grid">
-  <div class="unit unit-xs-1 island-1-2">
-    <h4>Recent Posts</h4>
-  </div>
   {% for post in site.posts %}
   <ul>
     <a class="remove-style" href="{{base.url}}/{{post.link}}">
@@ -27,9 +24,6 @@ hero: blog-main-banner.jpg
 </div>
 
 <div class="grid island-2 background-grey">
-  <div class="unit unit-xs-1 island-1-2">
-    <h4>More Posts</h4>
-  </div>
   {% for blog in site.data.blog %}
     <div class="blog unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island-1-2">
       <ul>
