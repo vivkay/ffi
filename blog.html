@@ -25,12 +25,13 @@ hero: blog-main-banner.jpg
 
 <div class="grid island-2 background-grey">
   {% for blog in site.data.blog %}
-    <div class="blog unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+    <div class="blog unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island-1-2">
       <ul>
         <li>
           <h6 class="push-none">{{blog.post-title}}</h6>
           <p>{{blog.post-date}}</p>
         </li>
+        <a class="read-more" href="#">Read More</a>
       </ul>
     </div>
   {% endfor %}

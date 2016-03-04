@@ -1952,7 +1952,29 @@ footer {
   background-color: #cdcbcc;
 }
 
+.blog ul {
+  margin: 0;
+}
+
 .blog li {
   text-decoration: none;
   list-style-type: none;
+}
+
+.blog li p {
+  padding: .25;
+  color: #19181A;
+  font-size: .75em;
+  margin: .5em 0;
+}
+
+.read-more {
+  color: #545152;
+  font-size: 1em;
+}
+
+.read-more:hover {
+  color: #F05546;
+  font-size: 1em;
+  padding: 0;
 }
