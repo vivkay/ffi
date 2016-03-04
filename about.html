@@ -18,16 +18,16 @@ hero: about-banner.jpg
 <div class="grid center  background-light">
     <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 island">
       <h4 class="secondary-title">Our Vision</h4>
-        <div class="icon-home">
-        <i class="i-community grey-icon"></i>
+        <div class="icon-home ">
+        <i class="i-community grey-icon little-icon"></i>
       </div>
       <p class="about-content grey-text">A sustainable future for the planet, where biodiversity is effectively conserved by the people who live closest to it, supported by the global 
 community</p>
     </div>
     <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 island">
-      <h4 class="secondary-title">Our Mission</h4>
-        <div class="icon-home grey-icon">
-        <i class="i-fir"></i>
+      <h4 class="secondary-title ">Our Mission</h4>
+        <div class="icon-home grey-icon ">
+        <i class="i-fir little-icon"></i>
       </div>
       <p class="about-content grey-text">To act to conserve threatened species and ecosystems worldwide, choosing solutions that are sustainable, based on sound science and take into account human needs.</p>
     </div>
@@ -36,7 +36,7 @@ community</p>
  <div class="grid pad-t">
   {% for content in site.data.about %}
     <div class="specie grid-middle unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4 unit-xl-1-4">
-        <i class="specie-icon coral-icon {{content.icon}}" alt="{{species.icon-alt}}"></i>
+        <i class=" specie-icon coral-icon {{content.icon}}" alt="{{species.icon-alt}}"></i>
 		<div class="center">
 		  <h4 class="center coral-title">{{content.name}}</h4>
 		  <p class="center about-content grey-text">{{content.description}}</p>

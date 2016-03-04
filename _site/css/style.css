@@ -1667,6 +1667,11 @@ footer {
   -webkit-transform-origin: center 60%;
       -ms-transform-origin: center 60%;
           transform-origin: center 60%;
+  color: #545152;
+}
+
+.light-grey-text {
+  color: #545152;
 }
 
 @-webkit-keyframes wiggle {
@@ -1925,6 +1930,10 @@ input + input {
 
 .donation-about-sec {
   padding-bottom: 2em;
+}
+
+.little-icon {
+  font-size: .8em;
 }
 
 .donation-content {
