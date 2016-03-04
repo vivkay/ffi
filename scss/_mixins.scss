@@ -30,16 +30,3 @@
   width: auto;
   overflow: auto;
 }
-
-@mixin donate-button {   
-	border: 0;
-    align-content: center;
-    font-size: .75rem;
-    padding: .75rem 1.5rem;
-    text-decoration: none;
-    display:inline-block;
-    font-weight: lighter;
-    color: white;
-    background-color: $coral;
-    letter-spacing: 1.5px; 
-} 

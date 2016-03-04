@@ -35,15 +35,10 @@ body{
 }
 
 .ffi-logo {
-  height: 33px;
+  height: 30px;
   text-align: center;
-<<<<<<< HEAD
   margin-left: 45%;
-=======
-  margin-left: 30%; 
->>>>>>> FETCH_HEAD
   margin-right: auto;
-  margin-top: .25em;
 }
 
 .top-nav {
@@ -54,7 +49,6 @@ body{
 
 .top-nav ul {
   text-align: center;
-  padding-top: 1.3em;	
 }
 
 .top-nav a {
@@ -87,7 +81,16 @@ footer {
 
 .btn-coral {
     margin: 0 ;
-	@include donate-button;
+    border: 0;
+    align-content: center;
+    font-size: .75rem;
+    padding: .75rem 1.5rem;
+    text-decoration: none;
+    display:inline-block;
+    font-weight: lighter;
+    color: white;
+    background-color: $coral;
+    letter-spacing: 1.5px;
 }
 
 .btn {
@@ -191,9 +194,7 @@ footer {
 //tablet
 @media only screen and (min-width: 38em){
 
-	.ffi-logo {
-	  margin-left: 38%; 
-	}
+
 } // @media query tablet
 
 //desktop
@@ -207,7 +208,7 @@ footer {
   display: inline-block;
 }
 
-.top-nav a {
+	.top-nav a {
   text-decoration: none;
   padding: 1em 1.5em;
   color: white;
@@ -245,7 +246,7 @@ footer {
 
 .menu-btn {
     position: absolute;
-    top: 17.5px;
+    top: 6px;
     left: 20px;
     z-index: 999;
     display: inline;
@@ -288,7 +289,7 @@ footer {
     display: none;
     width: 100%;
     opacity: .97;
-    height: 58%;
+    height: 57%;
     background: $dark-grey;
 	padding-top: 1em;
 	margin-left: -1em;
@@ -321,7 +322,6 @@ footer {
 		text-align: left;
 		margin-left: 0;
 		margin-right: 0;
-		margin-top: 1.5em;
 	}
 
 	.top-nav {
@@ -338,7 +338,6 @@ footer {
 		 width: 100%;
 		 opacity: 0;
 		 height: 0;
-		 z-index: -99; 
 		 background: none;
 	 }
 
@@ -364,7 +363,7 @@ footer {
 #nav-toggle span:after {
   cursor: pointer;
   border-radius: 1px;
-  height: 5px;
+  height: 7px;
   width: 35px;
   background: white;
   position: absolute;
@@ -406,7 +405,6 @@ footer {
 .hero {
     text-align: center;
     max-height: 75vh;
-	width: 100%;
     position: relative;
     background:
             linear-gradient(
@@ -415,7 +413,7 @@ footer {
         ),
         no-repeat center bottom / 100% 80%,
          no-repeat center top;
-    background-color: black;
+    background-color: grey;
     background-size: cover;
     padding-top: 46%;
 }
@@ -442,11 +440,7 @@ footer {
     position: absolute;
     text-align: center;
     color: white;
-	font-size: 1.5rem; 
-	font-weight: 400;
-    width: 60%;
-	margin-left: 25%; 
-	margin-right: auto;
+    width: 100%;
 }
 
 .logo-main {
@@ -455,7 +449,7 @@ footer {
 
 .name {
     padding: 0 1rem;
-    color: black;
+    color: white;
     top: 20%;
     margin: 0 auto;
     text-align: center;
@@ -482,87 +476,13 @@ footer {
     color: #FFFFFF;
     background-color: transparent;
     letter-spacing: 1.5px;
-<<<<<<< HEAD
 }
 
 .btn-cta:hover {
     background-color: rgba(255,255,255,0.3);
-=======
-	&:hover { 
-		 background-color: rgba(255,255,255,0.3); 
-	}
->>>>>>> FETCH_HEAD
 }
 
 .push-down {
 	margin-top: 28%;
-}
 
-.contact-title { 
-	font-size: 14px;
-	color: $coral;
-	text-align: left;
 }
-
-.contact-info { 
-	font-size: 12px;
-	font-weight: 300;
-	color: $light-grey; 
-	text-decoration: none;
-	list-style-type: none;
-}
-
-.contact-location { 
-	font-size: 14px;
-	font-weight: 600;
-	color: $medium-grey;
-	text-decoration: none;
-	list-style-type: none;
-}
-
-.contact-sec { 
-	margin-left: 3em;
-}
-
-.sign-up { 
-	width: 100%;
-	text-align: center;
-}
-
-form {
-    width: 80%;
-    margin: 0 auto;
-}
-
-label, input {
-    display: inline-block;
-}
-
-label {
-    width: 30%;
-    text-align: right;
-}
-
-label + input {
-    width: 30%;
-    margin: 0 30% 0 4%;
-}
-
-input + input {
-    float: right;
-}
-
-.donate-title { 
-	text-align: center;
-}
-
-.btn-coral-donate { 
-	margin-left: auto;
-	margin-right: 50%;
-	@include donate-button;
-}
-
-<<<<<<< HEAD
-}
-=======
->>>>>>> FETCH_HEAD
