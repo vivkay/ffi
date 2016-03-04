@@ -1859,6 +1859,16 @@ footer {
   padding-top: 46%;
 }
 
+.hero-inside {
+  text-align: center;
+  max-height: 25vh;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), no-repeat center bottom/100% 80%, no-repeat center top;
+  background-color: grey;
+  background-size: cover;
+  padding-top: 26%;
+}
+
 .hero-content {
   top: 0;
   margin-top: 5%;
@@ -1909,4 +1919,62 @@ footer {
 
 .push-down {
   margin-top: 28%;
+}
+
+.blog-thumb {
+  width: 100%;
+}
+
+.remove-style {
+  list-style-type: none;
+  text-decoration: none;
+  color: #19181A;
+}
+
+.author {
+  font-size: .75em;
+  color: #8F8A8B;
+  margin-bottom: .75em;
+}
+
+.blog-title {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #19181A;
+}
+
+.excerpt {
+  font-size: .9em;
+  color: #545152;
+}
+
+.background-grey {
+  background-color: #cdcbcc;
+}
+
+.blog ul {
+  margin: 0;
+}
+
+.blog li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.blog li p {
+  padding: .25;
+  color: #19181A;
+  font-size: .75em;
+  margin: .5em 0;
+}
+
+.read-more {
+  color: #545152;
+  font-size: 1em;
+}
+
+.read-more:hover {
+  color: #F05546;
+  font-size: 1em;
+  padding: 0;
 }
