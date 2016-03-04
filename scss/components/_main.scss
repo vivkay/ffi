@@ -42,7 +42,7 @@ body{
   margin-top: .25em;
 }
 
-.top-nav {
+.top-nav{
   background-color: $grey;
   overflow: hidden;
   padding: 1em;
@@ -265,17 +265,11 @@ footer {
     background-color: grey;
     background-size: cover;
     padding-top: 46%;
+	z-index: -99;
 }
 
-.banner-opacity:after {
-	content: "";
-	opacity: .5;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: $black; 
+.navigation-main { 
+	z-index: 99;
 }
 
 .hero-inside {
@@ -283,8 +277,20 @@ footer {
     max-height: 25vh;
     position: relative;
     background-color: grey;
-    background-size: cover;
     padding-top: 26%;
+}
+
+.banner-opacity:after {
+	content: "";
+	opacity: .5;
+	position: absolute;
+	top: 0;
+	z-index: -99;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	  background-size: cover;
+	background-color: $black; 
 }
 
 .hero-content {
