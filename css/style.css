@@ -1935,6 +1935,47 @@ input + input {
   margin-right: 20%;
 }
 
+.about-content {
+  font-size: 15px;
+  text-align: center;
+  margin-left: 13%;
+  margin-right: 13%;
+}
+
+.coral-icon {
+  color: #F05546;
+}
+
+.grey-icon {
+  color: #272729;
+}
+
+.secondary-title {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  color: #272729;
+}
+
+.grey-text {
+  color: #272729;
+}
+
+.third-title {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  color: #0D0C0D;
+}
+
+.coral-title {
+  font-size: 16px;
+  text-align: center;
+  color: #F05546;
+  margin: 0;
+  margin-bottom: .5em;
+}
+
 .banner-overlay {
   width: 100%;
   height: 100%;
@@ -2045,6 +2086,19 @@ input + input {
   padding-top: 1em;
   margin-left: -1em;
   overflow: visible;
+}
+
+.hero-tagp {
+  font-size: 29px;
+  color: #fff;
+  font-weight: 700;
+  margin: 0;
+}
+
+.hero-paragraph {
+  font-size: 17px;
+  color: #fff;
+  font-weight: 200;
 }
 
 .all-links {
