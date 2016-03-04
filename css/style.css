@@ -1508,10 +1508,11 @@ body {
 }
 
 .ffi-logo {
-  height: 30px;
+  height: 33px;
   text-align: center;
-  margin-left: 45%;
+  margin-left: 30%;
   margin-right: auto;
+  margin-top: .25em;
 }
 
 .top-nav {
@@ -1522,6 +1523,7 @@ body {
 
 .top-nav ul {
   text-align: center;
+  padding-top: 1.3em;
 }
 
 .top-nav a {
@@ -1666,6 +1668,12 @@ footer {
   }
 }
 
+@media only screen and (min-width: 38em) {
+  .ffi-logo {
+    margin-left: 38%;
+  }
+}
+
 @media only screen and (min-width: 60em) {
   .logo {
     display: initial;
@@ -1703,7 +1711,7 @@ footer {
 
 .menu-btn {
   position: absolute;
-  top: 6px;
+  top: 16px;
   left: 20px;
   z-index: 999;
   display: inline;

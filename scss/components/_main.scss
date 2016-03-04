@@ -35,10 +35,11 @@ body{
 }
 
 .ffi-logo {
-  height: 30px;
+  height: 33px;
   text-align: center;
-  margin-left: 45%; 
+  margin-left: 30%; 
   margin-right: auto;
+  margin-top: .25em;
 }
 
 .top-nav {
@@ -49,6 +50,7 @@ body{
 
 .top-nav ul {
   text-align: center;
+  padding-top: 1.3em;	
 }
 
 .top-nav a {
@@ -185,7 +187,9 @@ footer {
 //tablet
 @media only screen and (min-width: 38em){
 
-
+	.ffi-logo {
+	  margin-left: 38%; 
+	}
 } // @media query tablet
 
 //desktop
@@ -237,7 +241,7 @@ footer {
 
 .menu-btn {
     position: absolute;
-    top: 6px;
+    top: 16px;
     left: 20px;
     z-index: 999;
     display: inline;
@@ -529,3 +533,4 @@ input + input {
 	margin-right: 50%;
 	@include donate-button;
 }
+
