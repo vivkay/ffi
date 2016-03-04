@@ -24,20 +24,14 @@ hero: blog-main-banner.jpg
 </div>
 
 <div class="grid">
-  <div class="unit unit-xs-1 blog-sidebar">
-    <ul>
-      <li>
-        <h6>Post Title</h6>
-        <p>Post Date</p>
-      </li>
-      <li>
-        <h6>Post Title</h6>
-        <p>Post Date</p>
-      </li>
-      <li>
-        <h6>Post Title</h6>
-        <p>Post Date</p>
-      </li>
-    </ul>
-  </div>
+  {% for blog in site.data.blog %}
+    <div class="unit unit-xs-1 blog-sidebar">
+      <ul>
+        <li>
+          <h6 class="push-none">{{blog.post-title}}</h6>
+          <p>{{blog.post-date}}</p>
+        </li>
+      </ul>
+    </div>
+  {% endfor %}
 </div>
