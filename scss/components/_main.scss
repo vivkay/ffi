@@ -253,6 +253,19 @@ footer {
   transform: rotate(-45deg);
 }
 
+.hero-tagp { 
+	font-size: 29px; 
+	color: $black; 
+	font-weight: 700;
+	margin: 0;
+}
+
+.hero-paragraph { 
+	font-size: 17px; 
+	color: $black; 
+	font-weight: 500;
+}
+
 .hero-paragraph { 
 	font-size: 17px;
 	color: $black;
@@ -262,13 +275,6 @@ footer {
     text-align: center;
     max-height: 75vh;
     position: relative;
-    background:
-            linear-gradient(
-            rgba(0, 0, 0, 0.45),
-            rgba(0, 0, 0, 0.45)
-        ),
-        no-repeat center bottom / 100% 80%,
-         no-repeat center top;
     background-color: grey;
     background-size: cover;
     padding-top: 46%;
@@ -278,13 +284,6 @@ footer {
     text-align: center;
     max-height: 25vh;
     position: relative;
-    background:
-            linear-gradient(
-            rgba(0, 0, 0, 0.45),
-            rgba(0, 0, 0, 0.45)
-        ),
-        no-repeat center bottom / 100% 80%,
-         no-repeat center top;
     background-color: grey;
     background-size: cover;
     padding-top: 26%;
@@ -478,7 +477,6 @@ input + input {
 	color: $medium-dark-grey;
 	margin: 0;
 	padding-bottom: 1em;
-	
 }
 
 .coral-icon { 
@@ -529,7 +527,7 @@ input + input {
 .banner-overlay { 
 	top: 0;
 	left: 0;
-	background-color: black;
+	background-color: $black;
 	z-index: 200;
 	opacity: .6;
 }
@@ -654,19 +652,6 @@ input + input {
 	padding-top: 1em;
 	margin-left: -1em;
 	overflow: visible;
-}
-
-.hero-tagp { 
-	font-size: 29px; 
-	color: $black; 
-	font-weight: 700;
-	margin: 0;
-}
-
-.hero-paragraph { 
-	font-size: 17px; 
-	color: $black; 
-	font-weight: 500;
 }
 
 .all-links{
