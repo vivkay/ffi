@@ -1509,10 +1509,11 @@ body {
 }
 
 .ffi-logo {
-  height: 30px;
+  height: 55px;
   text-align: center;
-  margin-left: 45%;
+  margin-left: 30%;
   margin-right: auto;
+  margin-top: .25em;
 }
 
 .top-nav {
@@ -1523,6 +1524,7 @@ body {
 
 .top-nav ul {
   text-align: center;
+  padding-top: 1.95em;
 }
 
 .top-nav a {
@@ -1699,7 +1701,7 @@ footer {
 #nav-toggle span:after {
   cursor: pointer;
   border-radius: 1px;
-  height: 7px;
+  height: 5px;
   width: 35px;
   background: white;
   position: absolute;
@@ -1948,7 +1950,7 @@ input + input {
 
 @media only screen and (min-width: 38em) {
   .ffi-logo {
-    margin-left: 38%;
+    margin-left: 35%;
   }
   .donate-form {
     width: 50%;
@@ -1997,7 +1999,7 @@ input + input {
 
 .menu-btn {
   position: absolute;
-  top: 17.5px;
+  top: 28px;
   left: 20px;
   z-index: 999;
   display: inline;
@@ -2038,7 +2040,7 @@ input + input {
   display: none;
   width: 100%;
   opacity: .97;
-  height: 58%;
+  height: 64%;
   background: #0D0C0D;
   padding-top: 1em;
   margin-left: -1em;
@@ -2068,7 +2070,7 @@ input + input {
     text-align: left;
     margin-left: 0;
     margin-right: 0;
-    margin-top: 1.5em;
+    margin-top: 1.6em;
   }
   .top-nav {
     background-color: #19181A;
