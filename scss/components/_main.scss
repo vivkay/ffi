@@ -539,7 +539,7 @@ input + input {
 	.ffi-logo {
 	  margin-left: 35%; 
 	}
-	
+
 	.donate-form { 
 		width: 50%;
 	}
@@ -554,134 +554,134 @@ input + input {
 //desktop
 @media only screen and (min-width: 60em){
 
-.logo {
-  display: initial;
-}
+	.logo {
+	  display: initial;
+	}
 
-.menu {
-  display: inline-block;
-}
+	.menu {
+	  display: inline-block;
+	}
 
-.top-nav a {
-  text-decoration: none;
-  padding: 1em 1.5em;
-  color: white;
-}
+	.top-nav a {
+	  text-decoration: none;
+	  padding: 1em 1.5em;
+	  color: white;
+	}
 
-.top-nav li {
-  list-style-type: none;
-  display: inline-block;
-  font-size: .75rem;
-  line-height: 1rem;
-  padding: 0;
-  margin-bottom: 0;
-}
+	.top-nav li {
+	  list-style-type: none;
+	  display: inline-block;
+	  font-size: .75rem;
+	  line-height: 1rem;
+	  padding: 0;
+	  margin-bottom: 0;
+	}
 
-.donate {
-  background-color: $coral;
-  display: inline-block;
-  margin: 0;
-  padding: 1em;
-	
-}
+	.donate {
+	  background-color: $coral;
+	  display: inline-block;
+	  margin: 0;
+	  padding: 1em;
 
-.donate a {
-  text-decoration: none;
-  color: white;
-}
+	}
 
-.desktop-margin {
-  margin: 0 15%;
-}
+	.donate a {
+	  text-decoration: none;
+	  color: white;
+	}
 
-
-} // @media query desktop
+	.desktop-margin {
+	  margin: 0 15%;
+	}
 
 
-.menu-btn {
-    position: absolute;
-    top: 28px;
-    left: 20px;
-    z-index: 999;
-    display: inline;
-    font-size: 32px;
-	color: white;
-}
-
-.menu-btn a {
-	color: white;
-    display: inline-block;
-    text-decoration: none;
-}
-
-.btn-open:after {
-	color: white;
-    -webkit-transition: all .2s linear 0s;
-    -moz-transition: all .2s linear 0s;
-    -o-transition: all .2s linear 0s;
-    transition-property: all .2s linear 0s;
-}
+	} // @media query desktop
 
 
-.btn-close:after {
-	color: white;
-    -webkit-transition: all .2s linear 0s;
-    -moz-transition: all .2s linear 0s;
-    -o-transition: all .2s linear 0s;
-    transition-property: all .2s linear 0s;
-}
+	.menu-btn {
+		position: absolute;
+		top: 28px;
+		left: 20px;
+		z-index: 999;
+		display: inline;
+		font-size: 32px;
+		color: white;
+	}
 
-.btn-close:hover:after {
-    color: white;
-}
+	.menu-btn a {
+		color: white;
+		display: inline-block;
+		text-decoration: none;
+	}
+
+	.btn-open:after {
+		color: white;
+		-webkit-transition: all .2s linear 0s;
+		-moz-transition: all .2s linear 0s;
+		-o-transition: all .2s linear 0s;
+		transition-property: all .2s linear 0s;
+	}
 
 
-.overlay {
-    position: absolute;
-    top: 0;
-    z-index: 99;
-    display: none;
-    width: 100%;
-    opacity: .97;
-    height: 64%;
-    background: $dark-grey;
-	padding-top: 1em;
-	margin-left: -1em;
-	overflow: visible;
-}
+	.btn-close:after {
+		color: white;
+		-webkit-transition: all .2s linear 0s;
+		-moz-transition: all .2s linear 0s;
+		-o-transition: all .2s linear 0s;
+		transition-property: all .2s linear 0s;
+	}
 
-.hero-tagp { 
-	font-size: 29px; 
-	color: $white; 
-	font-weight: 700;
-	margin: 0;
-}
+	.btn-close:hover:after {
+		color: white;
+	}
 
-.hero-paragraph { 
-	font-size: 17px; 
-	color: $white; 
-	font-weight: 500;
-}
 
-.all-links{
-  position:absolute;
-  bottom:0;
-  font-size:18px;
-  font-weight:bold;
-  width:100%;
-  text-align:center;
-  background: $white;
-  padding:20px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  position:fixed;
-} 
+	.overlay {
+		position: absolute;
+		top: 0;
+		z-index: 99;
+		display: none;
+		width: 100%;
+		opacity: .97;
+		height: 64%;
+		background: $dark-grey;
+		padding-top: 1em;
+		margin-left: -1em;
+		overflow: visible;
+	}
 
-.menu-desk { 
-	display: none;
-	color: white;
-}
+	.hero-tagp { 
+		font-size: 29px; 
+		color: $white; 
+		font-weight: 700;
+		margin: 0;
+	}
+
+	.hero-paragraph { 
+		font-size: 17px; 
+		color: $white; 
+		font-weight: 500;
+	}
+
+	.all-links{
+	  position:absolute;
+	  bottom:0;
+	  font-size:18px;
+	  font-weight:bold;
+	  width:100%;
+	  text-align:center;
+	  background: $white;
+	  padding:20px;
+	  -webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  box-sizing: border-box;
+	  position:fixed;
+	} 
+
+	.menu-desk { 
+		display: none;
+		color: white;
+	}
 
 @media screen and (min-width: 60em) {
 
