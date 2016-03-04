@@ -2,3 +2,27 @@
 layout: default
 hero: initiatives-banner.jpg
 ---
+
+<div class="hero-content push-down">
+    <p class="hero-tagp">INITIATIVES</p>
+	<p class="hero-paragraph">Learn more about what we do, and how we do it.</p>
+</div>
+
+<div class="grid center island-2 desktop-margin">
+	<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
+		  <h4 class="grey-text center main-sec">WHAT ARE WE DOING?</h4>
+		  <p class="starting-content grey-text"> In practice Fauna &amp; Flora International's (FFI’s) direct conservation impact is mostly clearly seen within the countries that we work. However, behind the scenes we take a global perspective to our work, under a series of specific approaches and initiatives.</p>
+	</div>
+</div>
+
+ <div class="grid pad-t background-light">
+  {% for initiatives in site.data.initiatives %}
+    <div class="specie grid-middle unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4 unit-xl-1-4">
+        <i class="specie-icon {{initiatives.icon}}" alt="{{initiatives.icon-alt}}"></i>
+		<div class="center">
+		  <h4 class="specie-name grey-text">{{initiatives.name}}</h4>
+		  <p class="specie-desc light-grey-text">{{initiatives.description}}</p>
+		</div>	
+    </div>
+  {% endfor %}
+</div>

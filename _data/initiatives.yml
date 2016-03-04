@@ -1,0 +1,39 @@
+- name: Agricultural Landscaping
+  description: 'Fauna & Flora International promotes agricultural landscapes that safeguard biodiversity, support sustainable natural resource use and improve rural livelihoods.'
+  icon: i-saiga-antelope
+  icon-alt: Saiga Antelope
+
+- name: Business & Biodiversity
+  description: ' Fauna & Flora International promotes agricultural landscapes that safeguard biodiversity, support sustainable natural resource use and improve rural livelihoods.'
+  icon: i-saiga-antelope
+  icon-alt: Saiga Antelope
+
+- name: Climate Change
+  description: 'Change to global weather patterns is one of the greatest threats that will face biodiversity over coming years. Fauna & Flora International is working to reduce the risks through supporting emissions reductions from natural habitats and by developing adaptation plans.'
+  icon: i-saiga-antelope
+  icon-alt: Saiga Antelope
+  
+- name: Developing Capacity
+  description: 'Where possible Fauna & Flora International always works with in-country organisations to strengthen their abilities to deliver conservation into the future.'
+  icon: i-saiga-antelope
+  icon-alt: Saiga Antelope
+  
+- name: Conservation Science
+  description: 'Good conservation relies on good information, expertise and decision making. Fauna & Flora International aims to embed this across our partners, projects and grant-giving programmes.'
+  icon: i-saiga-antelope
+  icon-alt: Saiga Antelope
+  
+- name: Cultural Values
+  description: ' Cultural values connect people to the natural world. Fauna & Flora International aims to build these into its conservation initiatives to improve effectiveness while helping people retain their values, knowledge and traditions.'
+  icon: i-saiga-antelope
+  icon-alt: Saiga Antelope
+  
+- name: Livelihood and Governance
+  description: 'Fauna Flora International believes that conservation projects should not disadvantage people, but should improve their well-being and empower them to sustainably manage their own natural resources.'
+  icon: i-saiga-antelope
+  icon-alt: Saiga Antelope
+  
+- name: Marine conservation
+  description: 'The oceans have been badly abused over the last centuries. Fauna & Flora International has launched a new programme to focus on the protection of key marine sites, and to address some of the wider causes of marine declines.'
+  icon: i-saiga-antelope
+  icon-alt: Saiga Antelope
