@@ -1853,7 +1853,7 @@ footer {
 .donation-elephant {
   font-size: 80px;
   text-align: center;
-  margin-left: 46%;
+  margin-left: 47%;
 }
 
 .sign-up {
@@ -1924,8 +1924,7 @@ input + input {
 }
 
 .donation-about-sec {
-  background-color: #ECEDE2;
-  padding-bottom: 3em;
+  padding-bottom: 2em;
 }
 
 .donation-content {
@@ -1942,8 +1941,40 @@ input + input {
   margin-right: 13%;
 }
 
+.home-content {
+  font-size: 15px;
+  text-align: center;
+  margin-left: 8%;
+  margin-right: 8%;
+  font-weight: 300;
+  color: #8F8A8B;
+}
+
+.starting-content {
+  color: #272729;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.blog-header {
+  font-size: 19px;
+  text-align: center;
+  color: #272729;
+  margin: 0;
+  padding-bottom: 1em;
+}
+
 .coral-icon {
   color: #F05546;
+}
+
+.quote {
+  font-size: 16px;
+  text-align: center;
+  margin-left: 7%;
+  margin-right: 7%;
+  font-weight: 300;
+  color: #8F8A8B;
 }
 
 .grey-icon {
@@ -1954,6 +1985,8 @@ input + input {
   font-size: 20px;
   text-align: center;
   font-weight: 600;
+  padding: 0;
+  margin-bottom: 1em;
   color: #272729;
 }
 
