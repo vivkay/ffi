@@ -1789,6 +1789,7 @@ footer {
     width: 100%;
     opacity: 0;
     height: 0;
+    z-index: -99;
     background: none;
   }
   .menu-desk {
