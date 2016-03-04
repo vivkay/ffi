@@ -1859,6 +1859,16 @@ footer {
   padding-top: 46%;
 }
 
+.hero-inside {
+  text-align: center;
+  max-height: 25vh;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), no-repeat center bottom/100% 80%, no-repeat center top;
+  background-color: grey;
+  background-size: cover;
+  padding-top: 26%;
+}
+
 .hero-content {
   top: 0;
   margin-top: 5%;
