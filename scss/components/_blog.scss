@@ -25,6 +25,11 @@
   color: $medium-grey;
 }
 
-.blog-sidebar {
+.background-grey {
   background-color: lighten($light-grey, 25%);
+}
+
+.blog li {
+  text-decoration: none;
+  list-style-type: none;
 }

@@ -1948,6 +1948,11 @@ footer {
   color: #545152;
 }
 
-.blog-sidebar {
+.background-grey {
   background-color: #cdcbcc;
+}
+
+.blog li {
+  text-decoration: none;
+  list-style-type: none;
 }
