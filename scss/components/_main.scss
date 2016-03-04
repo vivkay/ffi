@@ -335,6 +335,28 @@ footer {
 
 }
 
+.contact-title { 
+	font-size: 14px;
+	color: $coral;
+	text-align: left;
+}
+
+.contact-info { 
+	font-size: 12px;
+	font-weight: 300;
+	color: $light-grey; 
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.contact-location { 
+	font-size: 14px;
+	font-weight: 600;
+	color: $medium-grey;
+	text-decoration: none;
+	list-style-type: none;
+}
+
 .contact-sec { 
 	margin-left: 3em;
 }
