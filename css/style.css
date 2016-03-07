@@ -2242,3 +2242,19 @@ input + input {
   font-size: 1em;
   padding: 0;
 }
+
+#asia:hover {
+  fill: #F05546;
+}
+
+#africa:hover {
+  fill: #F05546;
+}
+
+#eurasia:hover {
+  fill: #F05546;
+}
+
+#americas:hover {
+  fill: #F05546;
+}
