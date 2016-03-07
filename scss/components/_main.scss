@@ -37,7 +37,7 @@ body{
 .ffi-logo {
   height: 55px;
   text-align: center;
-  margin-left: 30%; 
+  margin-left: 30%;
   margin-right: auto;
   margin-top: .25em;
 }
@@ -56,8 +56,8 @@ body{
 .top-nav a {
   text-decoration: none;
   color: white;
-	&:active { 
-		color: $coral; 
+	&:active {
+		color: $coral;
 	}
 }
 
@@ -178,7 +178,7 @@ footer {
 	margin-bottom: 3em;
 }
 
-.main-sec { 
+.main-sec {
 	font-size: 20px;
 }
 
@@ -195,7 +195,7 @@ footer {
 	}
 }
 
-.light-grey-text { 
+.light-grey-text {
 	color: $medium-grey;
 }
 
@@ -204,9 +204,9 @@ footer {
   100% { transform: rotate(2deg); }
 }
 
-#nav-toggle { 
-	cursor: pointer; 
-	padding: 10px 35px 16px 0px; 
+#nav-toggle {
+	cursor: pointer;
+	padding: 10px 35px 16px 0px;
 }
 
 #nav-toggle span,
@@ -253,7 +253,7 @@ footer {
   transform: rotate(-45deg);
 }
 
-.hero-paragraph { 
+.hero-paragraph {
 	font-size: 17px;
 	color: $white;
 }
@@ -268,7 +268,7 @@ footer {
 	z-index: -99;
 }
 
-.navigation-main { 
+.navigation-main {
 	z-index: 99;
 }
 
@@ -290,7 +290,7 @@ footer {
 	width: 100%;
 	height: 100%;
 	  background-size: cover;
-	background-color: $black; 
+	background-color: $black;
 }
 
 .hero-content {
@@ -299,10 +299,10 @@ footer {
     position: absolute;
     text-align: center;
     color: $black;
-	font-size: 1.5rem; 
+	font-size: 1.5rem;
 	font-weight: 400;
     width: 50%;
-	margin-left: 25%; 
+	margin-left: 25%;
 	margin-right: auto;
 }
 
@@ -346,24 +346,24 @@ footer {
 }
 
 .push-down {
-	margin-top: 28%;
+	margin-top: 18%;
 }
 
-.contact-title { 
+.contact-title {
 	font-size: 14px;
 	color: $coral;
 	text-align: left;
 }
 
-.contact-info { 
+.contact-info {
 	font-size: 13px;
 	font-weight: 300;
-	color: $light-grey; 
+	color: $light-grey;
 	text-decoration: none;
 	list-style-type: none;
 }
 
-.contact-location { 
+.contact-location {
 	font-size: 15px;
 	font-weight: 600;
 	color: $medium-grey;
@@ -371,17 +371,17 @@ footer {
 	list-style-type: none;
 }
 
-.contact-sec { 
+.contact-sec {
 	margin-left: 3em;
 }
 
-.donation-elephant{ 
+.donation-elephant{
 	font-size: 80px;
 	text-align: center;
 	margin-left: 47%;
 }
 
-.sign-up { 
+.sign-up {
 	width: 100%;
 	text-align: center;
 }
@@ -411,96 +411,96 @@ input + input {
     float: right;
 }
 
-.donate-title { 
+.donate-title {
 	text-align: center;
 	font-weight: 700;
 	width: 100%;
 }
 
-.donate-form { 
+.donate-form {
 	margin-top: 2em;
 	background-color: $background;
-	padding-top: 2em; 
+	padding-top: 2em;
 	width: 77%;
 }
 
-.field-form { 
+.field-form {
 	border: 0px;
 	padding-top: 2em;
 }
 
-.btn-coral-donate { 
-	margin-left: 37%; 
+.btn-coral-donate {
+	margin-left: 37%;
 	margin-right: 50%;
 	margin-top: 2em;
 	margin-bottom: 2em;
 	@include donate-button;
 }
 
-.donation-about-sec { 
+.donation-about-sec {
 	padding-bottom: 2em;
 }
 
-.little-icon { 
+.little-icon {
 	font-size: .8em;
 }
 
-.donation-content { 
+.donation-content {
 	font-size: 14px;
 	text-align: center;
-	margin-left: 20%; 
+	margin-left: 20%;
 	margin-right: 20%;
 }
 
-.about-content { 
+.about-content {
 	font-size: 15px;
 	text-align: center;
-	margin-left: 13%; 
+	margin-left: 13%;
 	margin-right: 13%;
 }
 
-.home-content { 
+.home-content {
 	font-size: 15px;
 	text-align: center;
-	margin-left: 8%; 
+	margin-left: 8%;
 	margin-right: 8%;
 	font-weight: 300;
 	color: $light-grey;
 }
 
-.starting-content { 
+.starting-content {
 	color: $medium-dark-grey;
 	font-size: 15px;
 	font-weight: 500;
 }
 
-.blog-header { 
+.blog-header {
 	font-size: 19px;
 	text-align: center;
 	color: $medium-dark-grey;
 	margin: 0;
 	padding-bottom: 1em;
-	
+
 }
 
-.coral-icon { 
+.coral-icon {
 	color: $coral;
 }
 
-.quote { 
+.quote {
 	font-size: 16px;
 	text-align: center;
-	margin-left: 7%; 
+	margin-left: 7%;
 	margin-right: 7%;
 	font-weight: 300;
 	color: $light-grey;
 }
 
-.grey-icon { 
+.grey-icon {
 	color: $medium-dark-grey;
 }
 
-.secondary-title { 
+.secondary-title {
 	font-size: 20px;
 	text-align: center;
 	font-weight: 600;
@@ -509,18 +509,18 @@ input + input {
 	color: $medium-dark-grey;
 }
 
-.grey-text { 
+.grey-text {
 	color: $medium-dark-grey;
 }
 
-.third-title { 
+.third-title {
 	font-size: 18px;
 	text-align: center;
 	font-weight: 600;
 	color: $dark-grey;
 }
 
- .coral-title { 
+ .coral-title {
  	font-size: 16px;
 	text-align: center;
 	color: $coral;
@@ -528,7 +528,7 @@ input + input {
 	margin-bottom: .5em;
  }
 
-.donate-info { 
+.donate-info {
 	font-size: 10pt;
 	margin-right: 2em;
 	margin-left: 2em;
@@ -537,18 +537,23 @@ input + input {
 @media only screen and (min-width: 38em){
 
 	.ffi-logo {
-	  margin-left: 35%; 
+	  margin-left: 35%;
 	}
 
-	.donate-form { 
+	.donate-form {
 		width: 50%;
 	}
-	
-	.donate-info { 
+
+	.donate-info {
 		font-size: 10pt;
 		margin-right: 6em;
 		margin-left: 6em;
 	}
+
+  .push-down {
+    margin-top: 20%;
+  }
+
 } // @media query tablet
 
 //desktop
@@ -650,16 +655,16 @@ input + input {
 		overflow: visible;
 	}
 
-	.hero-tagp { 
-		font-size: 29px; 
-		color: $white; 
+	.hero-tagp {
+		font-size: 29px;
+		color: $white;
 		font-weight: 700;
 		margin: 0;
 	}
 
-	.hero-paragraph { 
-		font-size: 17px; 
-		color: $white; 
+	.hero-paragraph {
+		font-size: 17px;
+		color: $white;
 		font-weight: 500;
 	}
 
@@ -676,9 +681,9 @@ input + input {
 	  -moz-box-sizing: border-box;
 	  box-sizing: border-box;
 	  position:fixed;
-	} 
+	}
 
-	.menu-desk { 
+	.menu-desk {
 		display: none;
 		color: white;
 	}
@@ -700,23 +705,23 @@ input + input {
 		text-align: right;
 		margin-bottom: 0;
 	}
-	
-    .overlay { 
+
+    .overlay {
 		 display: block;
 		 width: 100%;
 		 opacity: 0;
 		 height: 0;
-		 z-index: -99; 
+		 z-index: -99;
 		 background: none;
 	 }
-	
-	.menu-desk { 
+
+	.menu-desk {
 		display: inline-block;
 		float: right;
 	}
-	
-	.menu-btn { 
+
+	.menu-btn {
 		display: none;
 	}
-	
+
 }
