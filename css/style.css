@@ -2243,6 +2243,14 @@ input + input {
   padding: 0;
 }
 
+.map {
+  margin: 0 10%;
+}
+
+#other:hover {
+  opacity: .5;
+}
+
 #asia:hover {
   fill: #F05546;
 }
