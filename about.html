@@ -1,53 +1,59 @@
 ---
 layout: default
 hero: about-banner.jpg
+page-title: FAUNA &amp; FLORA INTERNATIONAL
+page-subtitle: Fauna &amp; Flora International (FFI) is a proven conservation innovator that continues to make a lasting impact on global biodiversity – the variety of life on Earth.
 ---
+
 <div class="grid center island-2 desktop-margin">
     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
-      <h4>FLORA & FAUNA INTERNATIONAL</h4>
-      <p>Fauna & Flora International (FFI) is a proven conservation 
-innovator that continues to make a lasting impact on global 
-biodiversity – the variety of life on Earth.</p>
+      <h4 class="grey-text main-sec">FLORA &amp; FAUNA INTERNATIONAL</h4>
+      <p class="donation-content grey-text">Fauna &amp; Flora International's work spans across the globe, with over 140 projects in over 40 countries, mostly in the developing world. We proudly stand up for biodiversity and aim to show just how relevant it is to all of those who share the planet.</p>
     </div>
   </div>
 
-<div class="grid center">
+<div class="grid center  background-light">
     <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 island">
-      <h4>Our Vision</h4>
-        <div class="icon-home">
-        <i class="i-community"></i>
+      <h4 class="secondary-title">Our Vision</h4>
+        <div class="icon-home ">
+        <i class="i-community grey-icon little-icon"></i>
       </div>
-      <p>A sustainable future for the planet, where biodiversity is effectively conserved by the people who live closest to it, supported by the global 
+      <p class="about-content grey-text">A sustainable future for the planet, where biodiversity is effectively conserved by the people who live closest to it, supported by the global 
 community</p>
     </div>
     <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 island">
-      <h4>Our Mission</h4>
-        <div class="icon-home">
-        <i class="i-fir"></i>
+      <h4 class="secondary-title ">Our Mission</h4>
+        <div class="icon-home grey-icon ">
+        <i class="i-fir little-icon"></i>
       </div>
-      <p>To act to conserve threatened species and ecosystems worldwide, choosing solutions that are sustainable, based on sound science and take into account human needs.</p>
+      <p class="about-content grey-text">To act to conserve threatened species and ecosystems worldwide, choosing solutions that are sustainable, based on sound science and take into account human needs.</p>
     </div>
 </div>
     
-    <div class="grid pad-t background-light">
+ <div class="grid pad-t">
   {% for content in site.data.about %}
-    <div class=" specie island grid-middle unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
-        <i class="specie-icon {{content.icon}}" alt="{{species.icon-alt}}"></i>
+    <div class="specie grid-middle unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4 unit-xl-1-4">
+        <i class=" specie-icon coral-icon {{content.icon}}" alt="{{species.icon-alt}}"></i>
 		<div class="center">
-		  <h4 class="center">{{content.name}}</h4>
-		  <p class="center">{{content.description}}</p>
+		  <h4 class="center coral-title">{{content.name}}</h4>
+		  <p class="center about-content grey-text">{{content.description}}</p>
 		</div>	
     </div>
   {% endfor %}
 </div>
 
-<div class="grid center island-2 desktop-margin">
+<div class="join-section center pad-b">
+	<p class="center third-title">Join our team today</p>
+     <a href="contact.html" class="btn-coral">Join Us</a>
+</div>	
+
+<div class="grid center pad-t pad-b background-light">
     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
-      <h4>Why are we needed?</h4>
+      <h4 class="secondary-title">Why are we needed?</h4>
         <div class="icon-home">
-        <i class="i-support"></i>
+        <i class="i-support grey-icon"></i>
       </div>
-      <p>Biodiversity is critical for the life support systems that humans and all other species rely on – from provision of freshwater to shelter and food. Without the diversity of species, ecosystems are more vulnerable to natural disasters, human disturbance and climate change.
+      <p class="donation-content grey-text">Biodiversity is critical for the life support systems that humans and all other species rely on – from provision of freshwater to shelter and food. Without the diversity of species, ecosystems are more vulnerable to natural disasters, human disturbance and climate change.
 <br>
 <br>
 Sadly, the stunning array of species is under serious threat, from habitat loss, pollution, hunting and a myriad other pressures. Biodiversity is being lost at 1,000 times the natural rate.
@@ -55,4 +61,4 @@ Sadly, the stunning array of species is under serious threat, from habitat loss,
 <br>
 Whichever way you look at it, whether it is moral or economic, mankind has an imperative to protect it. All of us, from governments to businesses to individuals, need to work together if we are to save our planet’s rich natural resources.</p>
     </div>
-  </div>
+ </div>

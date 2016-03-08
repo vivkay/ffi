@@ -1,23 +1,23 @@
 - name: Great Green Macaw
-  sub-name: Africa
+  sub-name: Central/South America
   description: 'The great green macaw is one of the larger and more colourful parrots in South and Central America’s forests. As little as 30% of its original range may remain.'
   icon: i-mcaw
   icon-alt: Great Green Macaw
 
 - name: Leather Back Turtle
-  sub-name: Africa
+  sub-name: Central America
   description: 'The leatherback turtle is the oldest and largest turtle living in our oceans and is an important part of our ecosystem.The trade of turtle eggs remains the most significant threat to marine turtles.'
   icon: i-turtle
   icon-alt: This is the alt tag
 
 - name: Saiga Antelope
-  sub-name: Africa
+  sub-name: Asia
   description: 'This unique looking antelope lives in large nomadic herds but unfortunately their numbers are dropping and they are now considered critically endangered.'
   icon: i-saiga-antelope
   icon-alt: Saiga Antelope
 
 - name: Francois Langur
-  sub-name: Africa
+  sub-name: Asia
   description: 'The Francois’ langur is a distinctive primate, with its punk-style tuft of black hair and white sideburns. The population has declined in recent decades due to illegal hunting and habitat fragmentation.'
   icon: i-francois-langur
   icon-alt:  Francois Langur
@@ -29,20 +29,19 @@
   icon-alt:  Mountain Gorilla
   
 - name: Sumatran Tiger
-  sub-name: Africa
+  sub-name: Asia
   description: 'Smallest of all the tigers, its stripes are narrower than in other tiger subspecies and it has a more bearded and maned appearance. There are around 500 Sumatran tigers existing in the wild.'
   icon: i-tiger
   icon-alt:  Sumatran Tiger
 
 - name: Red Panda
-  sub-name: Africa
+  sub-name: Asia
   description: 'The red panda is largely found in mountainous, temperate forest regions in Asia. Their habitat is being lost due to logging and other development, while areas are opening up to hunters and the wildlife trade.'
   icon: i-red-panda
   icon-alt:  Red Panda
    
 - name: Brown Bear
-  sub-name: Africa
-  description: 'Despite its name, the brown bear varies greatly in colour, ranging from very light brown through to black.. Unfortunately, this important area is under threat from development and intensive exploitation of natural resources.'
+  sub-name: Europe
+  description: 'Despite its name, the brown bear varies greatly in colour, ranging from very light brown through to black. Unfortunately, this important area is under threat from development and intensive exploitation of natural resources.'
   icon: i-bear
   icon-alt:  Brown Bear
-

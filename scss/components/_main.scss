@@ -35,13 +35,14 @@ body{
 }
 
 .ffi-logo {
-  height: 30px;
+  height: 55px;
   text-align: center;
-  margin-left: 45%; 
+  margin-left: 30%;
   margin-right: auto;
+  margin-top: .25em;
 }
 
-.top-nav {
+.top-nav{
   background-color: $grey;
   overflow: hidden;
   padding: 1em;
@@ -49,11 +50,15 @@ body{
 
 .top-nav ul {
   text-align: center;
+	padding-top: 1.95em;
 }
 
 .top-nav a {
   text-decoration: none;
   color: white;
+	&:active {
+		color: $coral;
+	}
 }
 
 .top-nav li {
@@ -79,18 +84,8 @@ footer {
   padding: 4em 2em;
 }
 
-.btn-coral {
-    margin: 0 ;
-    border: 0;
-    align-content: center;
-    font-size: .75rem;
-    padding: .75rem 1.5rem;
-    text-decoration: none;
-    display:inline-block;
-    font-weight: lighter;
-    color: white;
-    background-color: $coral;
-    letter-spacing: 1.5px;
+.btn-coral{
+  @include cta-button;
 }
 
 .btn {
@@ -146,43 +141,52 @@ footer {
   overflow: hidden;
 }
 
-.specie-desc { 
-	font-size: 12px;
+.specie-desc {
+	font-size: 14px;
 	width: 230px;
     margin:0 auto;
     text-align: center;
-	
+
 }
 
-.specie-name { 
+.specie-name {
 	font-size: 16px;
 	margin: 0;
 }
 
-.specie-subname { 
+.specie-subname {
 	font-size: 12px;
 	margin: 0;
 }
 
-.specie-about { 
+.specie-about {
 	text-align: center;
 	display: inline;
 }
 
-.specie { 
+.specie {
 	margin-bottom: 3em;
 }
 
-.specie-icon { 
+.main-sec {
+	font-size: 20px;
+}
+
+.specie-icon {
 	font-size: 80px;
 	margin: 0;
 	text-align: center;
 	display: block;
-	&:hover, 
+	&:hover,
 	&:active {
 	  animation: wiggle .1s infinite alternate;
 	  transform-origin: center 60%;
+		color: $medium-grey;
 	}
+}
+
+.light-grey-text {
+	color: $medium-grey;
 }
 
 @keyframes wiggle {
@@ -190,176 +194,13 @@ footer {
   100% { transform: rotate(2deg); }
 }
 
-
-//tablet
-@media only screen and (min-width: 38em){
-
-
-} // @media query tablet
-
-//desktop
-@media only screen and (min-width: 60em){
-
-.logo {
-  display: initial;
+#nav-toggle {
+	cursor: pointer;
+	padding: 10px 35px 16px 0px;
 }
 
-.menu {
-  display: inline-block;
-}
-
-	.top-nav a {
-  text-decoration: none;
-  padding: 1em 1.5em;
-  color: white;
-}
-
-.top-nav li {
-  list-style-type: none;
-  display: inline-block;
-  font-size: .75rem;
-  line-height: 1rem;
-  padding: 0;
-  margin-bottom: 0;
-}
-
-.donate {
-  background-color: $coral;
-  display: inline-block;
-  margin: 0;
-  padding: 1em;
-	
-}
-
-.donate a {
-  text-decoration: none;
-  color: white;
-}
-
-.desktop-margin {
-  margin: 0 15%;
-}
-
-
-} // @media query desktop
-
-
-.menu-btn {
-    position: absolute;
-    top: 6px;
-    left: 20px;
-    z-index: 999;
-    display: inline;
-    font-size: 32px;
-	color: white;
-}
-
-.menu-btn a {
-	color: white;
-    display: inline-block;
-    text-decoration: none;
-}
-
-.btn-open:after {
-	color: white;
-    -webkit-transition: all .2s linear 0s;
-    -moz-transition: all .2s linear 0s;
-    -o-transition: all .2s linear 0s;
-    transition-property: all .2s linear 0s;
-}
-
-
-.btn-close:after {
-	color: white;
-    -webkit-transition: all .2s linear 0s;
-    -moz-transition: all .2s linear 0s;
-    -o-transition: all .2s linear 0s;
-    transition-property: all .2s linear 0s;
-}
-
-.btn-close:hover:after {
-    color: white;
-}
-
-
-.overlay {
-    position: absolute;
-    top: 0;
-    z-index: 99;
-    display: none;
-    overflow: auto;
-    width: 100%;
-    opacity: .97;
-    height: 50%;
-    background: $dark-grey;
-	padding-top: 1em;
-	margin-left: -1em;
-}
-
-.all-links{
-  position:absolute;
-  bottom:0;
-  font-size:18px;
-  font-weight:bold;
-  width:100%;
-  text-align:center;
-  background: $white;
-  padding:20px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  position:fixed;
-} 
-
-.menu-desk { 
-	display: none;
-	color: white;
-}
-
-@media screen and (min-width: 60em) {
-
-	.ffi-logo {
-		text-align: left;
-		margin-left: 0;
-		margin-right: 0;
-	}
-
-	.top-nav {
-		background-color: $grey;
-	}
-
-	.top-nav ul {
-		text-align: right;
-		margin-bottom: 0;
-	}
-	
-    .overlay { 
-		 display: block;
-		 width: 100%;
-		 opacity: 0;
-		 height: 0;
-		 background: none;
-	 }
-	
-	.menu-desk { 
-		display: inline-block;
-		float: right;
-	}
-	
-	.menu-btn { 
-		display: none;
-	}
-}
-
-//toggle button
-
-#nav-toggle { 
-	cursor: pointer; 
-	padding: 10px 35px 16px 0px; 
-}
-
-#nav-toggle span, 
-#nav-toggle span:before, 
+#nav-toggle span,
+#nav-toggle span:before,
 #nav-toggle span:after {
   cursor: pointer;
   border-radius: 1px;
@@ -372,15 +213,15 @@ footer {
 }
 
 #nav-toggle span:before {
-  top: -10px; 
+  top: -10px;
 }
 
 #nav-toggle span:after {
   bottom: -10px;
 }
 
-#nav-toggle span, 
-#nav-toggle span:before, 
+#nav-toggle span,
+#nav-toggle span:before,
 #nav-toggle span:after {
   transition: all 500ms ease-in-out;
 }
@@ -389,7 +230,7 @@ footer {
   background-color: transparent;
 }
 
-#nav-toggle.active span:before, 
+#nav-toggle.active span:before,
 #nav-toggle.active span:after {
   top: 0;
 }
@@ -400,4 +241,477 @@ footer {
 
 #nav-toggle.active span:after {
   transform: rotate(-45deg);
+}
+
+.hero-paragraph {
+	font-size: 17px;
+	color: $white;
+}
+
+.hero {
+    text-align: center;
+    max-height: 75vh;
+    position: relative;
+    background-color: grey;
+    background-size: cover;
+    padding-top: 46%;
+	z-index: -99;
+}
+
+.navigation-main {
+	z-index: 99;
+}
+
+.hero-inside {
+    text-align: center;
+    max-height: 25vh;
+    position: relative;
+    background-color: grey;
+    padding-top: 26%;
+}
+
+.banner-opacity:after {
+	content: "";
+	opacity: .5;
+	position: absolute;
+	top: 0;
+	z-index: -99;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	  background-size: cover;
+	background-color: $black;
+}
+
+.hero-content {
+    top: 0;
+    margin-top: 5%;
+    position: absolute;
+    text-align: center;
+    color: $black;
+	font-size: 1.5rem;
+	font-weight: 400;
+    width: 50%;
+	margin-left: 25%;
+	margin-right: auto;
+}
+
+.logo-main {
+    width: 20%;
+}
+
+.name {
+    padding: 0 1rem;
+    color: white;
+    top: 20%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.btn-top-wrapper {
+    position: fixed;
+    right: 0;
+    top: 75%;
+}
+
+.btn-cta {
+    margin: 0 ;
+    border: 2px solid white;
+    font-size: .75rem;
+    padding: .5rem 4rem;
+    text-decoration: none;
+    display:inline-block;
+    font-weight: lighter;
+    color: #FFFFFF;
+    background-color: transparent;
+    letter-spacing: 1.5px;
+}
+
+.btn-cta:hover {
+    background-color: rgba(255,255,255,0.3);
+}
+
+.push-down {
+	margin-top: 18%;
+}
+
+.contact-title {
+	font-size: 14px;
+	color: $coral;
+	text-align: left;
+}
+
+.contact-info {
+	font-size: 13px;
+	font-weight: 300;
+	color: $light-grey;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.contact-location {
+	font-size: 15px;
+	font-weight: 600;
+	color: $medium-grey;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.contact-sec {
+	margin-left: 3em;
+}
+
+.donation-elephant{
+	font-size: 80px;
+	text-align: center;
+	margin-left: 47%;
+}
+
+.sign-up {
+	width: 100%;
+	text-align: center;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+	border: 0px;
+}
+
+label, input {
+    display: inline-block;
+}
+
+label {
+    width: 30%;
+	padding-bottom: 1em;
+    text-align: right;
+}
+
+label + input {
+    width: 30%;
+    margin: 0 30% 0 4%;
+}
+
+input + input {
+    float: right;
+}
+
+.donate-title {
+	text-align: center;
+	font-weight: 700;
+	width: 100%;
+}
+
+.donate-form {
+	margin-top: 2em;
+	background-color: $background;
+	padding-top: 2em;
+	width: 77%;
+}
+
+.field-form {
+	border: 0px;
+	padding-top: 2em;
+}
+
+.btn-coral-donate {
+	margin-left: 37%;
+	margin-right: 50%;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	@include cta-button;
+}
+
+.donation-about-sec {
+	padding-bottom: 2em;
+}
+
+.little-icon {
+	font-size: .8em;
+}
+
+.donation-content {
+	font-size: 14px;
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.about-content {
+	font-size: 15px;
+	text-align: center;
+	margin-left: 13%;
+	margin-right: 13%;
+}
+
+.home-content {
+	font-size: 15px;
+	text-align: center;
+	margin-left: 8%;
+	margin-right: 8%;
+	font-weight: 300;
+	color: $light-grey;
+}
+
+.starting-content {
+	color: $medium-dark-grey;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.blog-header {
+	font-size: 19px;
+	text-align: center;
+	color: $medium-dark-grey;
+	margin: 0;
+	padding-bottom: 1em;
+
+}
+
+.coral-icon {
+	color: $coral;
+}
+
+.quote {
+	font-size: 16px;
+	text-align: center;
+	margin-left: 7%;
+	margin-right: 7%;
+	font-weight: 300;
+	color: $light-grey;
+}
+
+.grey-icon {
+	color: $medium-dark-grey;
+}
+
+.secondary-title {
+	font-size: 20px;
+	text-align: center;
+	font-weight: 600;
+	padding: 0;
+	margin-bottom: 1em;
+	color: $medium-dark-grey;
+}
+
+.grey-text {
+	color: $medium-dark-grey;
+}
+
+.third-title {
+	font-size: 18px;
+	text-align: center;
+	font-weight: 600;
+	color: $dark-grey;
+}
+
+ .coral-title {
+ 	font-size: 16px;
+	text-align: center;
+	color: $coral;
+	margin: 0;
+	margin-bottom: .5em;
+ }
+
+.donate-info {
+	font-size: 10pt;
+	margin-right: 2em;
+	margin-left: 2em;
+}
+
+@media only screen and (min-width: 38em){
+
+	.ffi-logo {
+	  margin-left: 35%;
+	}
+
+	.donate-form {
+		width: 50%;
+	}
+
+	.donate-info {
+		font-size: 10pt;
+		margin-right: 6em;
+		margin-left: 6em;
+	}
+
+  .push-down {
+    margin-top: 20%;
+  }
+
+} // @media query tablet
+
+//desktop
+@media only screen and (min-width: 60em){
+
+	.logo {
+	  display: initial;
+	}
+
+	.menu {
+	  display: inline-block;
+	}
+
+	.top-nav a {
+	  text-decoration: none;
+	  padding: 1em 1.5em;
+	  color: white;
+	}
+
+	.top-nav li {
+	  list-style-type: none;
+	  display: inline-block;
+	  font-size: .75rem;
+	  line-height: 1rem;
+	  padding: 0;
+	  margin-bottom: 0;
+	}
+
+	.donate {
+	  background-color: $grey;
+    border: $coral 2px solid;
+	  display: inline-block;
+	  margin: 0;
+	  padding: 1em;
+	}
+
+	.donate a {
+	  text-decoration: none;
+	  color: white;
+	}
+
+	.desktop-margin {
+	  margin: 0 15%;
+	}
+
+
+	} // @media query desktop
+
+
+	.menu-btn {
+		position: absolute;
+		top: 28px;
+		left: 20px;
+		z-index: 999;
+		display: inline;
+		font-size: 32px;
+		color: white;
+	}
+
+	.menu-btn a {
+		color: white;
+		display: inline-block;
+		text-decoration: none;
+	}
+
+	.btn-open:after {
+		color: white;
+		-webkit-transition: all .2s linear 0s;
+		-moz-transition: all .2s linear 0s;
+		-o-transition: all .2s linear 0s;
+		transition-property: all .2s linear 0s;
+	}
+
+
+	.btn-close:after {
+		color: white;
+		-webkit-transition: all .2s linear 0s;
+		-moz-transition: all .2s linear 0s;
+		-o-transition: all .2s linear 0s;
+		transition-property: all .2s linear 0s;
+	}
+
+	.btn-close:hover:after {
+		color: white;
+	}
+
+
+	.overlay {
+		position: absolute;
+		top: 0;
+		z-index: 99;
+		display: none;
+		width: 100%;
+		opacity: .97;
+		height: 64%;
+		background: $dark-grey;
+		padding-top: 1em;
+		margin-left: -1em;
+		overflow: visible;
+	}
+
+	.hero-tagp {
+		font-size: 29px;
+		color: $white;
+		font-weight: 700;
+		margin: 0;
+	}
+
+	.hero-paragraph {
+		font-size: 17px;
+		color: $white;
+		font-weight: 500;
+	}
+
+	.all-links{
+	  position:absolute;
+	  bottom:0;
+	  font-size:18px;
+	  font-weight:bold;
+	  width:100%;
+	  text-align:center;
+	  background: $white;
+	  padding:20px;
+	  -webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  box-sizing: border-box;
+	  position:fixed;
+	}
+
+	.menu-desk {
+		display: none;
+		color: white;
+	}
+
+@media screen and (min-width: 60em) {
+
+	.ffi-logo {
+		text-align: left;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 1.6em;
+	}
+
+	.top-nav {
+		background-color: $grey;
+	}
+
+	.top-nav ul {
+		text-align: right;
+		margin-bottom: 0;
+	}
+
+    .overlay {
+		 display: block;
+		 width: 100%;
+		 opacity: 0;
+		 height: 0;
+		 z-index: -99;
+		 background: none;
+	 }
+
+	.menu-desk {
+		display: inline-block;
+		float: right;
+	}
+
+	.menu-btn {
+		display: none;
+	}
+
 }

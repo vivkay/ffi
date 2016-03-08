@@ -1,15 +1,15 @@
 ---
 layout: default
 hero: species-fauna-banner.jpg
-hero-h1: We protect charismatic species and their habitats
-hero-h2: We focus on species that are on the brink of extinction
+page-title: KEY SPECIES
+page-subtitle: We carry out monitoring to find out how the plant or animal is faring and raise awareness in local communities about its importance.
 ---
 
 <!--Section 1 -->
   <div class="grid center island-2 desktop-margin">
     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
-      <h4>Species: Fauna</h4>
-      <p>Animals often play vital ecologicalroles, such as pollination and seed dispersion. Without them, the food web of most ecosystems would be pretty simple and unviable.</p>
+      <h4 class="grey-text center main-sec">SPECIES: FAUNA</h4>
+      <p class="starting-content grey-text">Animals often play vital ecologicalroles, such as pollination and seed dispersion. Without them, the food web of most ecosystems would be pretty simple and unviable.</p>
     </div>
   </div>
 
@@ -20,9 +20,9 @@ hero-h2: We focus on species that are on the brink of extinction
     <div class=" specie unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4 unit-xl-1-4">
         <i class="specie-icon {{species.icon}}" alt="{{species.icon-alt}}"></i>
 		<div class="specie-about ">
-		  <h4 class="specie-name">{{species.name}}</h4>
-		  <h5 class="specie-subname">{{species.sub-name}}</h5>
-		  <p class="specie-desc">{{species.description}}</p>
+		  <h4 class="specie-name grey-text">{{species.name}}</h4>
+		  <h5 class="specie-subname grey-text">{{species.sub-name}}</h5>
+		  <p class="specie-desc light-grey-text">{{species.description}}</p>
 		</div>	
     </div>
   {% endfor %}
@@ -32,21 +32,21 @@ hero-h2: We focus on species that are on the brink of extinction
 <!--Section 1 -->
   <div class="grid center island-2 desktop-margin">
     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
-      <h4>Species: Flora</h4>
-      <p>Plants are the building blocks of most ecosystems, certainly most land-based ecosystems. Yet they often get overlooked. By performing photosynthesis, they not only transform the sun’s energy into something other living creature can live off of (i.e. roots, leaves and stems), but they also capture carbon.            </p>
+      <h4 class="grey-text center main-sec">SPECIES: FLORA</h4>
+      <p class="starting-content grey-text">Plants are the building blocks of most ecosystems, certainly most land-based ecosystems. Yet they often get overlooked. By performing photosynthesis, they not only transform the sun’s energy into something other living creature can live off of (i.e. roots, leaves and stems), but they also capture carbon.            </p>
     </div>
   </div>
 
 
 <!--Section 2 -->
 <div class="grid pad-t background-light">
-  {% for species in site.data.species %}
+  {% for species in site.data.species-plant %}
     <div class=" specie unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4 unit-xl-1-4">
         <i class="specie-icon {{species.icon}}" alt="{{species.icon-alt}}"></i>
 		<div class="specie-about ">
-		  <h4 class="specie-name">{{species.name}}</h4>
-		  <h5 class="specie-subname">{{species.sub-name}}</h5>
-		  <p class="specie-desc">{{species.description}}</p>
+		  <h4 class="specie-name grey-text">{{species.name-plant}}</h4>
+		  <h5 class="specie-subname grey-text">{{species.sub-name-plant}}</h5>
+		  <p class="specie-desc light-grey-text">{{species.description-plant}}</p>
 		</div>	
     </div>
   {% endfor %}

@@ -1,4 +1,48 @@
 ---
 layout: default
 hero: blog-main-banner.jpg
+page-title: BLOG
+page-subtitle: Stay updated on current content regarding Flora &amp; Fauna International
 ---
+
+<div class="grid">
+  <div class="unit unit-xs-1 island-1-2">
+    <h4>Recent Posts</h4>
+  </div>
+  {% for post in site.posts %}
+  <ul>
+    <a class="remove-style" href="{{base.url}}/{{post.link}}">
+      <li>
+        <a href="{{site.baseurl}}{{post.url}}">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island">
+            <img class="blog-thumb" src="{{base.url}}/img/{{post.image}}">
+          </div>
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island">
+            <h3 class="push-none blog-title">{{post.title}}</h3>
+            <p class="author">{{post.author}}</p>
+            <p class="excerpt">{{post.meta}}</p>
+            <a class="btn-coral" href="blog-article.html">Read More</a>
+          </div>
+        </a>
+      </li>
+    </a>
+  </ul>
+  {% endfor %}
+</div>
+
+<div class="grid island-2 background-grey">
+  <div class="unit unit-xs-1 island-1-2">
+    <h4>More Posts</h4>
+  </div>
+  {% for blog in site.data.blog %}
+    <div class="blog unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island-1-2">
+      <ul>
+        <li>
+          <h6 class="push-none">{{blog.post-title}}</h6>
+          <p>{{blog.post-date}}</p>
+        </li>
+        <a class="read-more" href="#">Read More</a>
+      </ul>
+    </div>
+  {% endfor %}
+</div>

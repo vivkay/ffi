@@ -8,14 +8,13 @@
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/style.css" rel="stylesheet">
 </head>
 <body>
 <body>
-  <header>
 
-<div class="nav-desktop">	  
-	<div class="top-nav">	  
+<div class="navigation-main">
+	<div class="top-nav">
 		 <div class="menu-btn">
 			<a class="btn-open">
 				<a id="nav-toggle" href="#"><span></span></a>
@@ -24,39 +23,46 @@
 		<div class="overlay menu">
 			  <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-3-4 unit-xl-3-4">
 				<ul class="grid-middle">
-				  <li><a href="about.html">About</a></li>
-				  <li><a href="initiatives.html">Initiatives</a></li>
-				  <li><a href="species.html">Species</a></li>
-				  <li><a href="blog.html">Blog</a></li>
-				  <li><a href="contact.html">Contact</a></li>
-				  <li><a href="donate.html" class="donate">Donate</a></li>
+<li><a href="{{site.baseurl}}/about/">About</a></li>
+          <li><a href="{{site.baseurl}}/initiatives/">Initiatives</a></li>
+          <li><a href="{{site.baseurl}}/species/">Species</a></li>
+          <li><a href="{{site.baseurl}}/blog/">Blog</a></li>
+          <li><a href="{{site.baseurl}}/contact/">Contact</a></li>
+          <li><a href="{{site.baseurl}}/donate/" class="donate">Donate</a></li>
 				</ul>
 			</div>
 		</div>
 		<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-4 unit-xl-1-4">
-			<a class="logo" href="index.html">
-			  <img class="ffi-logo" src="img/logo-full.png" alt="Navigate Home">
+			<a class="logo" href="{{site.baseurl}}/">
+			  <img class="ffi-logo" src="{{site.baseurl}}/img/logo-full.png" alt="Navigate Home">
 			</a>
-		</div>	
-			<div class="menu-desk"> 
+		</div>
+			<div class="menu-desk">
 				<ul class="">
-				  <li><a href="about.html">About</a></li>
-				  <li><a href="initiatives.html">Initiatives</a></li>
-				  <li><a href="species.html">Species</a></li>
-				  <li><a href="blog.html">Blog</a></li>
-				  <li><a href="contact.html">Contact</a></li>
-				  <li><a href="donate.html" class="donate">Donate</a></li>
+				  <li><a href="{{site.baseurl}}/about/">About</a></li>
+				  <li><a href="{{site.baseurl}}/initiatives/">Initiatives</a></li>
+				  <li><a href="{{site.baseurl}}/species/">Species</a></li>
+				  <li><a href="{{site.baseurl}}/blog/">Blog</a></li>
+				  <li><a href="{{site.baseurl}}/contact/">Contact</a></li>
+				  <li><a href="{{site.baseurl}}/donate/" class="donate">Donate</a></li>
 				</ul>
 			</div>
 		</div>
-	</div>	  
+	</div>
 
-  </header><!-- /header -->
+	<div>
+		<header class="hero banner-opacity" role="banner" {% if page.hero %} style="background-image: url({{site.baseurl}}/img/{{page.hero}})" alt="" {% endif %}>
+			<div class="hero-content push-down">
+				<p class="hero-tagp ad-t-1-2">{{page.page-title}}</p>
+				<p class="hero-paragraph">{{page.page-subtitle}}</p>
+			</div>
+		</header><!-- /header -->
+	</div>
 <main>
 
 {{content}}
 
-      </main><!-- /main -->
+</main><!-- /main -->
 
     </div> <!--/.sliding-canvas-->
   </div> <!-- /.site-wrapper -->
@@ -81,13 +87,13 @@
       </div>
     </div>
     <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
-          <p class="center micro">Fauna & Flora International
+          <p class="center micro">Fauna &amp; Flora International
     The David Attenborough Building<br>
     Pembroke Street
     Cambridge, CB2 3QZ
     UK<br><br>
      info@fauna-flora.org<br>
-    Call: +44 (0)1223 571000<br> 
+    Call: +44 (0)1223 571000<br>
     Fax: +44 (0)1223 461481</p>
       <p class="center micro">© 2016 Fauna &amp; Flora International</p>
     </div>

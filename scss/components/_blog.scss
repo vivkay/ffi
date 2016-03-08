@@ -1,0 +1,63 @@
+.blog-thumb {
+  width: 100%;
+}
+
+.remove-style {
+  list-style-type: none;
+  text-decoration: none;
+  color: $grey;
+}
+
+.author {
+  font-size: .75em;
+  color: $light-grey;
+  margin-bottom: .75em;
+}
+
+.blog-title {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: $grey;
+}
+
+.excerpt {
+  font-size: .9em;
+  color: $medium-grey;
+}
+
+.background-grey {
+  background-color: lighten($light-grey, 25%);
+}
+
+.blog ul {
+  margin: 0;
+}
+
+.blog li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.blog li p {
+  padding: .25;
+  color: $grey;
+  font-size: .75em;
+  margin: .5em 0;
+}
+
+.read-more {
+  color: $medium-grey;
+  font-size: 1em;
+}
+
+.read-more:hover {
+  color: $coral;
+  font-size: 1em;
+  padding: 0;
+}
+
+.island-blog {
+  margin: 0 10%;
+  padding: 0 10%;
+}
+
