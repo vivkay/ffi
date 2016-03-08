@@ -1558,8 +1558,22 @@ footer {
   padding: 4em 2em;
 }
 
+/*
 .btn-coral {
-  margin: 0;
+    margin: 0 ;
+    border: 0;
+    align-content: center;
+    font-size: .75rem;
+    padding: .75rem 1.5rem;
+    text-decoration: none;
+    display:inline-block;
+    font-weight: lighter;
+    color: white;
+    background-color: $coral;
+    letter-spacing: 1.5px;
+}
+*/
+.btn-coral {
   border: 0;
   align-content: center;
   font-size: .75rem;
@@ -1568,8 +1582,9 @@ footer {
   display: inline-block;
   font-weight: lighter;
   color: white;
-  background-color: #F05546;
+  background-color: #19181A;
   letter-spacing: 1.5px;
+  border: #F05546 4px solid;
 }
 
 .btn {
@@ -1919,8 +1934,9 @@ input + input {
   display: inline-block;
   font-weight: lighter;
   color: white;
-  background-color: #F05546;
+  background-color: #19181A;
   letter-spacing: 1.5px;
+  border: #F05546 4px solid;
 }
 
 .donation-about-sec {
@@ -2246,4 +2262,28 @@ input + input {
 .island-blog {
   margin: 0 10%;
   padding: 0 10%;
+}
+
+.map {
+  margin: 0 10%;
+}
+
+#other:hover {
+  opacity: .5;
+}
+
+#asia:hover {
+  fill: #F05546;
+}
+
+#africa:hover {
+  fill: #F05546;
+}
+
+#eurasia:hover {
+  fill: #F05546;
+}
+
+#americas:hover {
+  fill: #F05546;
 }
