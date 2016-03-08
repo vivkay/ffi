@@ -1,17 +1,17 @@
 - name: Agricultural Landscaping
   description: 'Fauna & Flora International promotes agricultural landscapes that safeguard biodiversity, support sustainable natural resource use and improve rural livelihoods.'
-  image: 
+  image: diversityb-01.jpg
   image-alt: Steven
 
 
 - name: Business & Biodiversity
   description: ' Fauna & Flora International promotes agricultural landscapes that safeguard biodiversity, support sustainable natural resource use and improve rural livelihoods.'
-  image: Steven-Fry.jpg
+  image: businessandbee-01.jpg
   image-alt: Steven
 
 - name: Climate Change
   description: 'Change to global weather patterns is one of the greatest threats that will face biodiversity over coming years. Fauna & Flora International is working to reduce the risks through supporting emissions reductions from natural habitats and by developing adaptation plans.'
-  image: 
+  image: cimlatechange.jpg
   image-alt: Steven
   
 - name: Developing Capacity
