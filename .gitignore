@@ -1,2 +1,5 @@
 prepros.cfg
 *.css.map
+
+_site
+_posts/*.html
