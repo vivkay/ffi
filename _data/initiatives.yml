@@ -1,11 +1,11 @@
 - name: Agricultural Landscaping
   description: 'Fauna & Flora International promotes agricultural landscapes that safeguard biodiversity, support sustainable natural resource use and improve rural livelihoods.'
-  icon: 
+  image: img/Steve-Fry.jpg 
   icon-alt: Saiga Antelope
 
 - name: Business & Biodiversity
   description: ' Fauna & Flora International promotes agricultural landscapes that safeguard biodiversity, support sustainable natural resource use and improve rural livelihoods.'
-  icon: i-saiga-antelope
+  image: businessandbiodiversity-01.jpg
   icon-alt: Saiga Antelope
 
 - name: Climate Change
