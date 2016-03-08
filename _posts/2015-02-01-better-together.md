@@ -10,7 +10,9 @@ hero: blog-business.jpg
 deck: Fauna & Flora International’s Pippa Howard explains why NGOs, consultancies and other conservationists are joining forces to bring about biodiversity conservation in the private sector.
 ---
 
-Fauna & Flora International’s Pippa Howard explains why NGOs, consultancies and other conservationists are joining forces to bring about biodiversity conservation in the private sector.
+<i class="micro">Pippa Howard<br>2015-02-01</i><br>
+
+<b>Fauna & Flora International’s Pippa Howard explains why NGOs, consultancies and other conservationists are joining forces to bring about biodiversity conservation in the private sector.</b>
 
 What would you think if I told you that conservation is rarely about managing wildlife, but almost always about understanding and managing people?
 
