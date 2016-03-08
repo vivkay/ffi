@@ -1,11 +1,12 @@
 ---
 layout: blog-article
 title: Managing Waste for Conservation and Livelihoods
-page-title: <!--ADD ME-->
+page-title: Managing Waste for Conservation and Livelihoods
 meta: Fauna & Flora International’s Pippa Howard explains the links between waste, landscapes and livelihoods and why we should be re-thinking our approach to waste management.
 author: Pippa Howard
 date: 5 Feb 2015
 image: blog-waste.jpg
+hero: blog-waste.jpg
 ---
 
 <p><i class="micro">Pippa Howard<br>2015-02-05<br><b>Category:</b>General, Business & Biodiversity</i></p>
