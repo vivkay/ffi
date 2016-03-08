@@ -2242,3 +2242,8 @@ input + input {
   font-size: 1em;
   padding: 0;
 }
+
+.island-blog {
+  margin: 0 10%;
+  padding: 0 10%;
+}
