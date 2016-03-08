@@ -1,17 +1,18 @@
 .map {
-  margin: 0 10%;
+	background-color: $background;
+	overflow: none;
 }
 
 #other:hover {
-  opacity: .5;
+ fill: $light-coral;
 }
 
 #asia:hover {
-  fill: $coral;
+  fill: $medium-coral;
 }
 
 #africa:hover {
-  fill: $coral;
+  fill: $dark-coral;
 }
 
 #eurasia:hover {
@@ -19,5 +20,5 @@
 }
 
 #americas:hover {
-  fill: $coral;
+  fill: $dark-coral;
 }

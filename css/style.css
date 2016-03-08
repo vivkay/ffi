@@ -2279,19 +2279,20 @@ input + input {
 }
 
 .map {
-  margin: 0 10%;
+  background-color: #ECEDE2;
+  overflow: none;
 }
 
 #other:hover {
-  opacity: .5;
+  fill: #F9B8A4;
 }
 
 #asia:hover {
-  fill: #F05546;
+  fill: #F37962;
 }
 
 #africa:hover {
-  fill: #F05546;
+  fill: #D94841;
 }
 
 #eurasia:hover {
@@ -2299,5 +2300,5 @@ input + input {
 }
 
 #americas:hover {
-  fill: #F05546;
+  fill: #D94841;
 }
