@@ -16,25 +16,30 @@ Includes prefix (xs, s, m, l, xl, xxl) for 4 columns
   display: -ms-flexbox;
   -ms-flex-flow: row wrap;
   display: flex;
-  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
 }
 
 .grid-bottom {
   -webkit-align-items: flex-end;
   -ms-align-items: flex-end;
-  align-items: flex-end;
+  -ms-flex-align: end;
+      align-items: flex-end;
 }
 
 .grid-middle {
   -webkit-align-items: center;
   -ms-align-items: center;
-  align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 .grid-stretch {
   -webkit-align-items: stretch;
   -ms-align-items: stretch;
-  align-items: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
 }
 
 .opera-only :-o-prefocus, .grid {
@@ -617,7 +622,8 @@ Includes prefix (xs, s, m, l, xl, xxl) for 4 columns
 .content-fill {
   -ms-flex-grow: 2;
   -webkit-flex-grow: 2;
-  flex-grow: 2;
+  -ms-flex-positive: 2;
+      flex-grow: 2;
   max-width: 100%;
   /* @bugfix: IE 10, 11 */
 }
@@ -625,7 +631,8 @@ Includes prefix (xs, s, m, l, xl, xxl) for 4 columns
 .content-shrink {
   -ms-align-self: center;
   -webkit-align-self: center;
-  align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
 }
 
 /*
@@ -1462,11 +1469,6 @@ td, th, fieldset {
   scale: 1;
 }
 
-@-o-viewport {
-  width: device-width;
-  scale: 1;
-}
-
 @-webkit-viewport {
   width: device-width;
   scale: 1;
@@ -1479,7 +1481,6 @@ td, th, fieldset {
 
 html {
   box-sizing: border-box;
-  -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
@@ -1558,24 +1559,11 @@ footer {
   padding: 4em 2em;
 }
 
-/*
-.btn-coral {
-    margin: 0 ;
-    border: 0;
-    align-content: center;
-    font-size: .75rem;
-    padding: .75rem 1.5rem;
-    text-decoration: none;
-    display:inline-block;
-    font-weight: lighter;
-    color: white;
-    background-color: $coral;
-    letter-spacing: 1.5px;
-}
-*/
 .btn-coral {
   border: 0;
-  align-content: center;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
   font-size: .75rem;
   padding: .75rem 1.5rem;
   text-decoration: none;
@@ -1678,8 +1666,11 @@ footer {
 }
 
 .specie-icon:hover, .specie-icon:active {
-  animation: wiggle .1s infinite alternate;
-  transform-origin: center 60%;
+  -webkit-animation: wiggle .1s infinite alternate;
+          animation: wiggle .1s infinite alternate;
+  -webkit-transform-origin: center 60%;
+      -ms-transform-origin: center 60%;
+          transform-origin: center 60%;
   color: #545152;
 }
 
@@ -1687,12 +1678,25 @@ footer {
   color: #545152;
 }
 
-@keyframes wiggle {
+@-webkit-keyframes wiggle {
   0% {
-    transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
   }
   100% {
-    transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+}
+
+@keyframes wiggle {
+  0% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  100% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
   }
 }
 
@@ -1738,11 +1742,15 @@ footer {
 }
 
 #nav-toggle.active span:before {
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 #nav-toggle.active span:after {
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
 .hero-paragraph {
@@ -1927,7 +1935,9 @@ input + input {
   margin-top: 2em;
   margin-bottom: 2em;
   border: 0;
-  align-content: center;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
   font-size: .75rem;
   padding: .75rem 1.5rem;
   text-decoration: none;
@@ -2073,7 +2083,8 @@ input + input {
     margin-bottom: 0;
   }
   .donate {
-    background-color: #F05546;
+    background-color: #19181A;
+    border: #F05546 2px solid;
     display: inline-block;
     margin: 0;
     padding: 1em;
@@ -2159,8 +2170,6 @@ input + input {
   text-align: center;
   background: #fff;
   padding: 20px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   position: fixed;
 }

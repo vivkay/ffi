@@ -424,7 +424,7 @@ input + input {
 	margin-right: 50%;
 	margin-top: 2em;
 	margin-bottom: 2em;
-	@include donate-button;
+	@include cta-button;
 }
 
 .donation-about-sec {
