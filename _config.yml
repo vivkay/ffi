@@ -1,3 +1,4 @@
 baseurl: /ffi
 exclude: ['README.md']
 exclude: [scss]
+permalink: pretty
