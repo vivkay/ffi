@@ -1861,6 +1861,12 @@ footer {
   text-align: left;
 }
 
+.hero-tagp {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 700;
+}
+
 .contact-info {
   font-size: 13px;
   font-weight: 300;
@@ -2060,6 +2066,9 @@ input + input {
   .ffi-logo {
     margin-left: 35%;
   }
+  .hero-tagp {
+    font-size: 19px;
+  }
   .donate-form {
     width: 50%;
   }
@@ -2167,12 +2176,6 @@ input + input {
   padding-top: 1em;
   margin-left: -1em;
   overflow: visible;
-}
-
-.hero-tagp {
-  font-size: 13px;
-  color: #fff;
-  font-weight: 700;
 }
 
 .all-links {
