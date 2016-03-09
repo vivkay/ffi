@@ -22,5 +22,17 @@ Unfortunately, lansan trees are highly prone to decay and careless tapping can s
 
 Only Saint Lucia and Dominica still have sizeable numbers left, and Saint Lucia’s population is in decline. Resin tapping has long been prohibited on state land, but that has proved difficult to enforce and, besides, nobody wished to deprive poor tappers of an important livelihood.
 
+<b>Putting research into practice</b>
+
+Following on from this study, a new management plan for Saint Lucia lansan has been developed which sees local tappers becoming professionally trained and licensed to use our recommended, and very productive, method of extraction.
+
+Every tapper will be granted an area of forest which they can use and help to protect in cooperation with the Saint Lucia Forests and Land Resources Department. Lansan trees are also being planted by the department as part of post-hurricane reforestation efforts.
+
+The early success of the project has created a buzz within the government department as, Alfred Prospere, Deputy Chief Forest Officer, explains, “We are now working with the very people who were threatening the trees to ensure they are conserved and used sustainably. For me personally I have gained a lot of knowledge about this species and learned how, with the aid of this research, we can manage and conserve it effectively for the future.”
+
+This project is furthermore being viewed as a model for other threatened resources in Saint Lucia. Monty Karl Augustin, head of the new Green Economy unit, said “This fits the Forestry Department’s new strategic plan, developed with support from FFI, to enable local people to benefit from forest products and services and hence gain a clear incentive to keep even our lands forested for the future. The lansan initiative is leading the way, and we hope other species, and other countries, will follow”.
+
+These are still early days but thanks to our success in finding an effective and tree-friendly way of harvesting resin, Saint Lucia has the makings of a win-win-win: for the tappers, for the communities who traditionally use incense, and for the conservation of these globally Endangered trees.
+
 <a href="{{site.baseurl}}/blog/" class="post-link">Other related Blog posts</a>
 
