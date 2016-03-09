@@ -48,14 +48,9 @@ body{
   padding: 1em;
 }
 
-.move { 
-	padding-top: 1em;
-}
-
 .top-nav ul {
 	text-align: center;
 	padding-top: 1.95em;
-
 }
 
 .top-nav a {
@@ -151,7 +146,6 @@ footer {
 	width: 230px;
     margin:0 auto;
     text-align: center;
-
 }
 
 .specie-name {
@@ -222,7 +216,7 @@ footer {
 }
 
 #nav-toggle span:before {
-  top: -10px;
+	top: -10px;
 }
 
 #nav-toggle span:after {
@@ -488,7 +482,6 @@ input + input {
 	color: $medium-dark-grey;
 	margin: 0;
 	padding-bottom: 1em;
-
 }
 
 .coral-icon {
@@ -622,7 +615,6 @@ input + input {
 	}
 }
 
-
 .menu-btn {
 	position: absolute;
 	top: 28px;
@@ -659,7 +651,6 @@ input + input {
 .btn-close:hover:after {
 	color: white;
 }
-
 
 .overlay {
 	position: absolute;
@@ -737,7 +728,4 @@ input + input {
 	.menu-btn {
 		display: none;
 	}
-
 }
-
-
