@@ -1722,6 +1722,10 @@ footer {
   content: '';
 }
 
+.navigation-main {
+  z-index: 99;
+}
+
 #nav-toggle span:before {
   top: -10px;
 }
@@ -1772,10 +1776,6 @@ footer {
   background-size: cover;
   padding-top: 46%;
   z-index: -99;
-}
-
-.navigation-main {
-  z-index: 99;
 }
 
 .hero-inside {
