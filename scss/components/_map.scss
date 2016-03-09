@@ -22,3 +22,32 @@
 #americas:hover {
   fill: $dark-coral;
 }
+
+.c-hov { 
+	color: $medium-dark-grey; 
+	&:hover { 
+		color: $medium-coral;
+	}
+}
+
+.c2-hov { 
+	color: $medium-dark-grey; 
+	&:hover { 
+		color: $dark-coral;
+	}
+}
+
+.c3-hov { 
+	color: $medium-dark-grey; 
+	&:hover { 
+		color: $dark-coral;
+	}
+}
+
+.c4-hov { 
+	color: $medium-dark-grey; 
+	&:hover { 
+		color: $coral;
+	}
+}
+

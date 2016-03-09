@@ -2335,3 +2335,35 @@ input + input {
 #americas:hover {
   fill: #D94841;
 }
+
+.c-hov {
+  color: #272729;
+}
+
+.c-hov:hover {
+  color: #F37962;
+}
+
+.c2-hov {
+  color: #272729;
+}
+
+.c2-hov:hover {
+  color: #D94841;
+}
+
+.c3-hov {
+  color: #272729;
+}
+
+.c3-hov:hover {
+  color: #D94841;
+}
+
+.c4-hov {
+  color: #272729;
+}
+
+.c4-hov:hover {
+  color: #F05546;
+}
