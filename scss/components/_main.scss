@@ -244,8 +244,10 @@ footer {
 }
 
 .hero-paragraph {
-	font-size: 17px;
+	font-size: 13px;
 	color: $white;
+	font-weight: 500;
+	display: none;
 }
 
 .hero {
@@ -530,7 +532,7 @@ input + input {
 }
 
 @media only screen and (min-width: 38em){
-
+	
 	.ffi-logo {
 	  margin-left: 35%;
 	}
@@ -538,7 +540,13 @@ input + input {
 	.donate-form {
 		width: 50%;
 	}
-
+	
+	.hero-paragraph {
+		font-size: 17px;
+		color: $white;
+		display: block;
+	}
+	
 	.donate-info {
 		font-size: 10pt;
 		margin-right: 6em;
@@ -555,6 +563,12 @@ input + input {
 //desktop
 @media only screen and (min-width: 60em){
 
+	.hero-paragraph {
+		font-size: 17px;
+		color: $white;
+		display: block;
+	}
+	
 	.logo {
 	  display: initial;
 	}
@@ -594,95 +608,86 @@ input + input {
 	.desktop-margin {
 	  margin: 0 15%;
 	}
+}
 
 
-	} // @media query desktop
+.menu-btn {
+	position: absolute;
+	top: 28px;
+	left: 20px;
+	z-index: 999;
+	display: inline;
+	font-size: 32px;
+	color: white;
+}
+
+.menu-btn a {
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.btn-open:after {
+	color: white;
+	-webkit-transition: all .2s linear 0s;
+	-moz-transition: all .2s linear 0s;
+	-o-transition: all .2s linear 0s;
+	transition-property: all .2s linear 0s;
+}
 
 
-	.menu-btn {
-		position: absolute;
-		top: 28px;
-		left: 20px;
-		z-index: 999;
-		display: inline;
-		font-size: 32px;
-		color: white;
-	}
+.btn-close:after {
+	color: white;
+	-webkit-transition: all .2s linear 0s;
+	-moz-transition: all .2s linear 0s;
+	-o-transition: all .2s linear 0s;
+	transition-property: all .2s linear 0s;
+}
 
-	.menu-btn a {
-		color: white;
-		display: inline-block;
-		text-decoration: none;
-	}
-
-	.btn-open:after {
-		color: white;
-		-webkit-transition: all .2s linear 0s;
-		-moz-transition: all .2s linear 0s;
-		-o-transition: all .2s linear 0s;
-		transition-property: all .2s linear 0s;
-	}
+.btn-close:hover:after {
+	color: white;
+}
 
 
-	.btn-close:after {
-		color: white;
-		-webkit-transition: all .2s linear 0s;
-		-moz-transition: all .2s linear 0s;
-		-o-transition: all .2s linear 0s;
-		transition-property: all .2s linear 0s;
-	}
+.overlay {
+	position: absolute;
+	top: 0;
+	z-index: 99;
+	display: none;
+	width: 100%;
+	opacity: .97;
+	height: 64%;
+	background: $dark-grey;
+	padding-top: 1em;
+	margin-left: -1em;
+	overflow: visible;
+}
 
-	.btn-close:hover:after {
-		color: white;
-	}
+.hero-tagp {
+	font-size: 13px;
+	color: $white;
+	font-weight: 700;
+}
 
+.all-links{
+  position:absolute;
+  bottom:0;
+  font-size:18px;
+  font-weight:bold;
+  width:100%;
+  text-align:center;
+  background: $white;
+  padding:20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position:fixed;
+}
 
-	.overlay {
-		position: absolute;
-		top: 0;
-		z-index: 99;
-		display: none;
-		width: 100%;
-		opacity: .97;
-		height: 64%;
-		background: $dark-grey;
-		padding-top: 1em;
-		margin-left: -1em;
-		overflow: visible;
-	}
-
-	.hero-tagp {
-		font-size: 29px;
-		color: $white;
-		font-weight: 700;
-		margin: 0;
-	}
-
-	.hero-paragraph {
-		font-size: 17px;
-		color: $white;
-		font-weight: 500;
-	}
-
-	.all-links{
-	  position:absolute;
-	  bottom:0;
-	  font-size:18px;
-	  font-weight:bold;
-	  width:100%;
-	  text-align:center;
-	  background: $white;
-	  padding:20px;
-	  -webkit-box-sizing: border-box;
-	  -moz-box-sizing: border-box;
-	  box-sizing: border-box;
-	  position:fixed;
-	}
-
-	.menu-desk {
-		display: none;
-		color: white;
-	}
+.menu-desk {
+	display: none;
+	color: white;
+}
 
 @media screen and (min-width: 60em) {
 
@@ -697,6 +702,13 @@ input + input {
 		background-color: $grey;
 	}
 
+	.hero-tagp {
+		font-size: 29px;
+		color: $white;
+		font-weight: 700;
+		margin: 0;
+	}
+	
 	.top-nav ul {
 		text-align: right;
 		margin-bottom: 0;
@@ -721,3 +733,5 @@ input + input {
 	}
 
 }
+
+
