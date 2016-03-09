@@ -34,5 +34,5 @@ This project is furthermore being viewed as a model for other threatened resourc
 
 These are still early days but thanks to our success in finding an effective and tree-friendly way of harvesting resin, Saint Lucia has the makings of a win-win-win: for the tappers, for the communities who traditionally use incense, and for the conservation of these globally Endangered trees.
 
-<a href="{{site.baseurl}}/blog/" class="post-link">Other related Blog posts</a>
+<a class="btn-coral" href="{{site.baseurl}}/blog/">Other related Blog posts</a>
 

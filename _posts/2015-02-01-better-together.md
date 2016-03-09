@@ -33,4 +33,4 @@ Bringing together a broad mix of professionals will provide members of this comm
 
 It’s not an easy task to re-think our individual approaches to biodiversity conservation, but with a lot of collaboration, transparency and the conviction to stand by our principles, we have the tools needed to create better outcomes for all.
 
-<a href="{{site.baseurl}}/blog/" class="post-link">Other related Blog posts</a>
+<a class="btn-coral" href="{{site.baseurl}}/blog/">Other related Blog posts</a>

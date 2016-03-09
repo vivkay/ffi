@@ -41,4 +41,4 @@ The broader challenge is to develop regional waste management strategies and to 
 
 This involves educating, training and raising awareness among local communities, small-scale businesses and entrepreneurs to develop and run local waste management initiatives that create livelihoods. It requires us to ensure that policy makers are equipped with the know-how to devise effective, long-term regional waste strategies Lastly, it requires us to create markets and infrastructure for products such as compost, energy and recycled material.
 
-<a href="{{site.baseurl}}/blog/" class="post-link">Other related Blog posts</a>
+<a class="btn-coral" href="{{site.baseurl}}/blog/">Other related Blog posts</a>
