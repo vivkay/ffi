@@ -22,3 +22,5 @@ Unfortunately, lansan trees are highly prone to decay and careless tapping can s
 
 Only Saint Lucia and Dominica still have sizeable numbers left, and Saint Lucia’s population is in decline. Resin tapping has long been prohibited on state land, but that has proved difficult to enforce and, besides, nobody wished to deprive poor tappers of an important livelihood.
 
+<a href="{{site.baseurl}}/blog/" class="post-link">Other related Blog posts</a>
+

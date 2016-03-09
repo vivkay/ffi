@@ -18,3 +18,5 @@ Waste. It is all around us, piling up under our sinks, being buried in landfills
 In most of the countries where I have worked, waste management infrastructure is poor or lacking, leaving a grungy impression of haphazard ignorance and neglect. A shabby, dirty manifestation of an ‘I don’t care’ attitude. In truth, it is more likely to be an indication of not being able to afford proper waste management, of not knowing how or not knowing why waste is a problem.
 
 Even in sophisticated cities like Cambridge, discarded plastic wrappers and aluminium cans scar the urban landscape, and choke the River Cam and Hobson’s Brook. We seem not to care, despite all the legal frameworks and education at our disposal, so to speak.
+
+<a href="{{site.baseurl}}/blog/" class="post-link">Other related Blog posts</a>
