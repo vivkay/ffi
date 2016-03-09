@@ -54,7 +54,18 @@ permalink: 404.html
 		</div>
 	</div>
 
+	<div>
+		<header class="hero banner-opacity" role="banner" {% if page.hero %} style="background-image: url({{site.baseurl}}/img/{{page.hero}})" alt="" {% endif %}>
+			<div class="hero-content push-down">
+				<p class="hero-tagp ad-t-1-2">{{page.page-title}}</p>
+				<p class="hero-paragraph">{{page.page-subtitle}}</p>
+			</div>
+		</header><!-- /header -->
+	</div>
 <main>
+
+
+
 
 <div class="hero-content push-down">
     <p class="hero-tagp pad-t-1-2">OOPS, LOOKS LIKE SOMETHING WENT WRONG!</p>
