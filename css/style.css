@@ -2225,6 +2225,12 @@ input + input {
   color: #19181A;
 }
 
+.post-link {
+  color: #F05546;
+  list-style-type: none;
+  text-decoration: none;
+}
+
 .author {
   font-size: .75em;
   color: #8F8A8B;
